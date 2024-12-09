@@ -5,50 +5,52 @@ on:
     tags: ["[0-9]+.[0-9]+.[0-9]+"]
 
 jobs:
-  release:
+  build:
     runs-on: ubuntu-latest
+
     steps:
-      - name: checkout source
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
+      - name: Checkout repository
+        uses: actions/checkout@v2
 
-      # It is important to check the GoReleaser config before pushing to
-      # Dockerhub to avoid having mismatches between what is in Dockerhub
-      # and GitHub releases.
-      - name: check releaser config
-        uses: goreleaser/goreleaser-action@v6
-        with:
-          args: check
-          version: "~> v1"
+      - name: Install ORAS CLI
+        run: |
+          # Download the latest ORAS release for Linux
+          wget https://github.com/oras-project/oras/releases/download/v1.1.0/oras_1.1.0_linux_amd64.tar.gz
+          tar -xzf oras_1.1.0_linux_amd64.tar.gz
+          sudo install -m 755 oras /usr/local/bin/
+      
+      - name: Login to DockerHub Registry
+        run: echo "${{ secrets.DOCKER_PASSWORD }}" | oras login docker.io -u "${{ secrets.DOCKER_USERNAME }}" --password-stdin
 
-      - name: login to docker hub
-        uses: docker/login-action@v3
-        with:
-          username: ${{ secrets.DOCKER_LOGIN }}
-          password: ${{ secrets.DOCKER_PASSWORD }}
+      - name: Set up OPA
+        run: |
+          curl -L -o opa https://github.com/open-policy-agent/opa/releases/latest/download/opa_linux_amd64
+          chmod +x opa
+          sudo mv opa /usr/local/bin/
+      
+      - name: Check current folder
+        run: ls -la
 
-      - name: get version
-        id: get-version
-        run: echo "VERSION=${GITHUB_REF#refs/tags/}" >> $GITHUB_OUTPUT
+      - name: Check OPA version
+        run: opa version
 
-      - name: setup docker buildx
-        run: docker buildx create --name conftestbuild --use
+      - name: Build OPA Bundle
+        run: opa build src
 
-      - name: push images
-        env:
-          VERSION: ${{ steps.get-version.outputs.VERSION }}
-        run: make push TAG=$VERSION
+      - name: Check current folder after build
+        run: ls -la
 
-      - name: setup go
-        uses: actions/setup-go@v4
-        with:
-          go-version: "1.23.x"
+      - name: Check specific var
+        run: echo ${{ github.ref }}
 
-      - name: release
-        uses: goreleaser/goreleaser-action@v6
-        with:
-          args: release --clean
-          version: "~> v1"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Push OPA Bundle to DockerHub with ORAS
+        run: |
+          oras push docker.io/${{ secrets.DOCKER_USERNAME }}/test-opa-bundle-scheduling:${{ github.ref }} \
+          --config config.json:application/vnd.oci.image.config.v1+json bundle.tar.gz:application/vnd.oci.image.layer.v1.tar+gzip
+          
+          oras push docker.io/${{ secrets.DOCKER_USERNAME }}/test-opa-bundle-scheduling:latest \
+          --config config.json:application/vnd.oci.image.config.v1+json bundle.tar.gz:application/vnd.oci.image.layer.v1.tar+gzip
+
+      - name: Cleanup
+        run: |
+          rm -rf bundle.tar.gz
