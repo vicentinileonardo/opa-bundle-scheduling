@@ -7,7 +7,7 @@ Create GitHub repository secrets for the following:
 - `REGISTRY_PASSWORD`
 - `REGISTRY_NAMESPACE`
 
-For individual accounts, this would be your Docker Hub username
+For individual accounts, `REGISTRY_NAMESPACE` is the same as the `REGISTRY_USERNAME`.
 
 In order to trigger the GitHub Action, you need to push a tag to the repository:
 ```bash
@@ -42,3 +42,7 @@ oras push docker.io/<DOCKER_USERNAME>/test-opa-bundle-scheduling:1.0.0 \
 oras push docker.io/<DOCKER_USERNAME>/test-opa-bundle-scheduling:latest \
 --config config.json:application/vnd.oci.image.config.v1+json bundle.tar.gz:application/vnd.oci.image.layer.v1.tar+gzip
 ```
+
+## References
+
+- [OPA Bundles in OCI registries](https://www.openpolicyagent.org/docs/latest/management-bundles/#oci-registry)
