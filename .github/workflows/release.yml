@@ -47,11 +47,11 @@ jobs:
         run: ls -la
 
       - name: Check specific var
-        run: echo ${{ github.ref }}
+        run: echo ${{ github.ref_name }}
 
       - name: Push OPA Bundle to DockerHub with ORAS
         run: |
-          oras push docker.io/${{ secrets.DOCKER_USERNAME }}/test-opa-bundle-scheduling:${{ github.ref }} \
+          oras push docker.io/${{ secrets.DOCKER_USERNAME }}/test-opa-bundle-scheduling:${{ github.ref_name }} \
           --config config.json:application/vnd.oci.image.config.v1+json bundle.tar.gz:application/vnd.oci.image.layer.v1.tar+gzip
           
           oras push docker.io/${{ secrets.DOCKER_USERNAME }}/test-opa-bundle-scheduling:latest \
