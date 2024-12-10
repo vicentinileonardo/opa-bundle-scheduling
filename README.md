@@ -3,8 +3,11 @@
 ## How to use
 
 Create GitHub repository secrets for the following:
-- `DOCKER_USERNAME`
-- `DOCKER_PASSWORD`
+- `REGISTRY_USERNAME`
+- `REGISTRY_PASSWORD`
+- `REGISTRY_NAMESPACE`
+
+For individual accounts, this would be your Docker Hub username
 
 In order to trigger the GitHub Action, you need to push a tag to the repository:
 ```bash

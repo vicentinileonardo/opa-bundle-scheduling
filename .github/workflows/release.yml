@@ -9,7 +9,7 @@ env:
   OPA_VERSION: 0.70.0
   REGISTRY: docker.io
   OPA_BUNDLE_NAME: test-opa-bundle-scheduling
-  REPOSITORY: ${{ secrets.DOCKER_NAMESPACE }}/{{ env.OPA_BUNDLE_NAME }}
+  REPOSITORY: ${{ secrets.REGISTRY_NAMESPACE }}/{{ env.OPA_BUNDLE_NAME }}
 
 jobs:
   build:
@@ -29,7 +29,7 @@ jobs:
         run: oras version
       
       - name: Login to Container Registry
-        run: echo "${{ secrets.DOCKER_PASSWORD }}" | oras login ${{ env.REGISTRY }} -u "${{ secrets.DOCKER_USERNAME }}" --password-stdin
+        run: echo "${{ secrets.REGISTRY_PASSWORD }}" | oras login ${{ env.REGISTRY }} -u "${{ secrets.REGISTRY_USERNAME }}" --password-stdin
 
       - name: Set up OPA
         run: |
