@@ -18,7 +18,6 @@ jobs:
 
       - name: Install ORAS CLI
         run: |
-          # Download the latest ORAS release for Linux
           wget https://github.com/oras-project/oras/releases/download/v${{ env.ORAS_VERSION }}/oras_${{ env.ORAS_VERSION }}_linux_amd64.tar.gz
           tar -xzf oras_${{ env.ORAS_VERSION }}_linux_amd64.tar.gz
           sudo install -m 755 oras /usr/local/bin/
