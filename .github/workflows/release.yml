@@ -44,7 +44,7 @@ jobs:
         run: opa version
 
       - name: Build OPA Bundle
-        run: oras build src
+        run: opa build src
 
       - name: Check current folder after OPA build
         run: ls -la
