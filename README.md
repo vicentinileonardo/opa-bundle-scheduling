@@ -2,12 +2,21 @@
 
 ## How to use
 
-TODO
+Create GitHub repository secrets for the following:
+- `DOCKER_USERNAME`
+- `DOCKER_PASSWORD`
+
+In order to trigger the GitHub Action, you need to push a tag to the repository:
+```bash
+git commit --allow-empty -m "Whatever (v0.1.0)"
+git tag -a 0.1.0 -m "Whatever (v0.1.0)"
+git push origin main --tags
+```
 
 ## Direct push to OCI registry
 
 This alternative method is useful when you want to push the bundle directly to an OCI registry. 
-Normally, using the GitHub Action in the current repository is the preferred way to push the bundle to a OCI registry.
+Normally, using the GitHub Action in the current GitHub repository is the preferred way to push the bundle to an OCI registry.
 
 ### Prerequisites
 - [OPA](https://www.openpolicyagent.org/docs/latest/#running-opa)
