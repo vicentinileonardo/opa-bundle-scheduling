@@ -1,6 +1,19 @@
 # OPA bundle scheduling
 
+## How to use
+
+TODO
+
 ## Direct push to OCI registry
+
+This alternative method is useful when you want to push the bundle directly to an OCI registry. 
+Normally, using the GitHub Action in the current repository is the preferred way to push the bundle to a OCI registry.
+
+### Prerequisites
+- [OPA](https://www.openpolicyagent.org/docs/latest/#running-opa)
+- [ORAS CLI](https://oras.land/docs/installation)
+
+### Build and push the bundle
 
 ```bash
 opa build src
@@ -11,9 +24,9 @@ oras login docker.io
 ```
 
 ```bash
-oras push docker.io/leovice/test-opa-bundle-scheduling:1.0.0 \
+oras push docker.io/<DOCKER_USERNAME>/test-opa-bundle-scheduling:1.0.0 \
 --config config.json:application/vnd.oci.image.config.v1+json bundle.tar.gz:application/vnd.oci.image.layer.v1.tar+gzip
 
-oras push docker.io/leovice/test-opa-bundle-scheduling:latest \
+oras push docker.io/<DOCKER_USERNAME>/test-opa-bundle-scheduling:latest \
 --config config.json:application/vnd.oci.image.config.v1+json bundle.tar.gz:application/vnd.oci.image.layer.v1.tar+gzip
 ```
