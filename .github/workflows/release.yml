@@ -7,6 +7,9 @@ on:
 env:
   ORAS_VERSION: 1.2.1
   OPA_VERSION: 0.70.0
+  REGISTRY: docker.io
+  OPA_BUNDLE_NAME: test-opa-bundle-scheduling
+  REPOSITORY: ${{ secrets.DOCKER_NAMESPACE }}/{{ env.OPA_BUNDLE_NAME }}
 
 jobs:
   build:
@@ -25,8 +28,8 @@ jobs:
       - name: Check ORAS version
         run: oras version
       
-      - name: Login to DockerHub Registry
-        run: echo "${{ secrets.DOCKER_PASSWORD }}" | oras login docker.io -u "${{ secrets.DOCKER_USERNAME }}" --password-stdin
+      - name: Login to Container Registry
+        run: echo "${{ secrets.DOCKER_PASSWORD }}" | oras login ${{ env.REGISTRY }} -u "${{ secrets.DOCKER_USERNAME }}" --password-stdin
 
       - name: Set up OPA
         run: |
@@ -41,20 +44,17 @@ jobs:
         run: opa version
 
       - name: Build OPA Bundle
-        run: opa build src
+        run: oras build src
 
       - name: Check current folder after OPA build
         run: ls -la
 
-      - name: Check specific var
-        run: echo ${{ github.ref_name }}
-
-      - name: Push OPA Bundle to DockerHub with ORAS
+      - name: Push OPA Bundle to Container Registry with ORAS
         run: |
-          oras push docker.io/${{ secrets.DOCKER_USERNAME }}/test-opa-bundle-scheduling:${{ github.ref_name }} \
+          oras push ${{ env.REGISTRY }}/${{ env.REPOSITORY }}:${{ github.ref_name }} \
           --config config.json:application/vnd.oci.image.config.v1+json bundle.tar.gz:application/vnd.oci.image.layer.v1.tar+gzip
           
-          oras push docker.io/${{ secrets.DOCKER_USERNAME }}/test-opa-bundle-scheduling:latest \
+          oras push ${{ env.REGISTRY }}/${{ env.REPOSITORY }}:latest \
           --config config.json:application/vnd.oci.image.config.v1+json bundle.tar.gz:application/vnd.oci.image.layer.v1.tar+gzip
 
       - name: Cleanup
