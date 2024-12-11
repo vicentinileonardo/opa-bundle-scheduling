@@ -2,7 +2,7 @@ package system
 
 import rego.v1
 
-provider := "azure"
+provider := data.userSettings.cloudProvider
 
 # Function to determine eligible regions based on latency
 # In theory at least 1 region should be eligible: the origin region itself
