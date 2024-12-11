@@ -13,10 +13,10 @@ const_scheduling_time := "2049-03-15T11:34:45Z"
 ai_inference_server_mock_url := "http://ai-inference-server-mock.ai-inference-server-mock.svc.cluster.local:8080/scheduling"
 
 origin_region := "Australia Central"
-max_latency := 50
+max_latency := input.request.object.spec.maxLatency
+deadline := input.request.object.spec.deadline
+duration := input.request.object.spec.duration
 eligible_regions := eligible_regions_by_latency(origin_region, max_latency)
-deadline := "2027-03-15T11:34:45Z"
-duration := "1h30m"
 
 # HTTP call to get scheduling details
 scheduling_details := http.send({
