@@ -12,7 +12,7 @@ const_scheduling_time := "2049-03-15T11:34:45Z"
 
 ai_inference_server_mock_url := "http://ai-inference-server-mock.ai-inference-server-mock.svc.cluster.local:8080/scheduling"
 
-origin_region := "Australia Central"
+origin_region := data.userSettings.originRegion
 max_latency := input.request.object.spec.maxLatency
 deadline := input.request.object.spec.deadline
 duration := input.request.object.spec.duration
