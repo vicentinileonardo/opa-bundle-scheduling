@@ -1,5 +1,9 @@
 # OPA bundle scheduling
 
+## Description
+
+This repository is part of a project: **Carbon-aware workload scheduling in a multi-cloud environment**.
+
 ## How to use
 
 Create GitHub repository secrets for the following:
@@ -46,3 +50,7 @@ oras push docker.io/<DOCKER_USERNAME>/test-opa-bundle-scheduling:latest \
 ## References
 
 - [OPA Bundles in OCI registries](https://www.openpolicyagent.org/docs/latest/management-bundles/#oci-registry)
+
+## Data
+
+Azure latency data is obtained from the Azure Docs.
