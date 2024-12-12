@@ -29,7 +29,7 @@ Normally, using the GitHub Action in the current GitHub repository is the prefer
 - [OPA](https://www.openpolicyagent.org/docs/latest/#running-opa)
 - [ORAS CLI](https://oras.land/docs/installation)
 
-### Build and push the bundle
+### Build and push the bundle manually
 
 ```bash
 opa build src
@@ -54,3 +54,4 @@ oras push docker.io/<DOCKER_USERNAME>/test-opa-bundle-scheduling:latest \
 ## Data
 
 Azure latency data is obtained from the Azure Docs.
+Raw data is available in the `raw_data` directory just for reference.
