@@ -11,7 +11,9 @@ package system
 const_scheduling_time := "2049-03-15T11:34:45Z"
 const_scheduling_location := "italynorth"
 
-ai_inference_server_mock_url := "http://ai-inference-server-mock.ai-inference-server-mock.svc.cluster.local:8080/scheduling"
+#ai_inference_server_mock_url := "http://ai-inference-server-mock.ai-inference-server-mock.svc.cluster.local:8080/scheduling"
+
+ai_inference_server_mock_url := opa.runtime().env.AI_INFERENCE_SERVER_MOCK_URL
 
 origin_region := data.userSettings.originRegion
 max_latency := input.request.object.spec.maxLatency
