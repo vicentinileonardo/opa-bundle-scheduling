@@ -2201,6 +2201,13 @@
                 "westus": 19,
                 "westus2": 39
             }
-        }
+        },
+        "gdpr_compliant_regions": ["northeurope", 
+                                   "swedencentral", 
+                                   "westeurope",
+                                   "francecentral",
+                                   "francesouth",
+                                   "italynorth",
+                                   "polandcentral"]
     }
 }

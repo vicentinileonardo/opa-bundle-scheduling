@@ -1,6 +1,9 @@
 {
     "userSettings": {
         "cloudProvider": "azure",
-        "originRegion": "italynorth"
+        "originRegion": "italynorth",
+        "gdprCompliance": {
+            "enabled": true
+        }
     }
 }
