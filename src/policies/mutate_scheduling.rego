@@ -58,6 +58,7 @@ patch[patchCode] {
 		"value": schedulingTime,
 	}
 
+	print("with ENV_VARIABLE (1)")
 	print("After TIME add patch (1)")
 }
 
@@ -82,7 +83,8 @@ patch[patchCode] {
 		"path": "/spec/schedulingTime",
 		"value": schedulingTime,
 	}
-
+	
+	print("with ENV_VARIABLE (2)")
 	print("After TIME replace patch (2)")
 }
 
