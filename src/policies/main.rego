@@ -1,10 +1,12 @@
 package system
 
-# https://github.com/open-policy-agent/library/blob/master/kubernetes/mutating-admission/main.rego
+# Reference: https://github.com/open-policy-agent/library/blob/master/kubernetes/mutating-admission/main.rego
+
 ###########################################################################
 # Implementation of the k8s admission control external webhook interface,
 # combining validating and mutating admission controllers
 ###########################################################################
+
 default apiVersion = "admission.k8s.io/v1beta1"
 
 apiVersion = input.apiVersion

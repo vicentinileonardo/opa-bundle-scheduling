@@ -1,34 +1,60 @@
 package system
 
-# https://github.com/open-policy-agent/library/blob/master/kubernetes/mutating-admission/example_mutation.rego
+# Reference: https://github.com/open-policy-agent/library/blob/master/kubernetes/mutating-admission/example_mutation.rego
+
 ############################################################
-# PATCH rules for VmTemplate scheduling time
+# PATCH rules for VmTemplate scheduling time and location
 #
-# Adds or replaces schedulingTime in VmTemplate spec with a hardcoded ISO 8601 timestamp
+# Adds or replaces schedulingTime and schedulingLocation in VmTemplate spec
 ############################################################
 
-# Hardcoded ISO 8601 timestamp (for fallback)
-const_scheduling_time := "2049-03-15T11:34:45Z"
-const_scheduling_location := "italynorth"
+const_scheduling_time := data.userSettings.defaultSchedulingTime			# Hardcoded ISO 8601 timestamp (for fallback)
+const_scheduling_location := data.userSettings.defaultSchedulingLocation
 
-#ai_inference_server_mock_url := "http://ai-inference-server-mock.ai-inference-server-mock.svc.cluster.local:8080/scheduling"
+#scheduler_url := "http://ai-inference-server-mock.ai-inference-server-mock.svc.cluster.local:8080/scheduling"
 
-ai_inference_server_mock_url := opa.runtime().env.AI_INFERENCE_SERVER_MOCK_URL
+# Retrieve URL from environment variable (OPA configuration)
+scheduler_url := opa.runtime().env.AI_INFERENCE_SERVER_MOCK_URL
 
 origin_region := data.userSettings.originRegion
 max_latency := input.request.object.spec.maxLatency
 deadline := input.request.object.spec.deadline
 duration := input.request.object.spec.duration
-eligible_regions := eligible_regions_by_latency(origin_region, max_latency)
+cpu := input.request.object.spec.cpu
+memory := input.request.object.spec.memory
+
+eligible_regions = latency_eligible_regions {
+	data.userSettings.gdprCompliance.enabled == false
+    
+    # Get regions eligible by latency
+    latency_eligible_regions := eligible_regions_by_latency(origin_region, max_latency)
+}
+
+eligible_regions = latency_and_gdpr_eligible_regions {
+	data.userSettings.gdprCompliance.enabled == true
+
+    # Get regions eligible by latency
+    latency_eligible_regions := eligible_regions_by_latency(origin_region, max_latency)
+
+    # Filter latency-eligible regions by GDPR compliance
+    latency_and_gdpr_eligible_regions = eligible_regions_by_gdpr(latency_eligible_regions)
+}
+
+eligible_electricity_maps_regions = result {
+    result := map_to_electricitymaps(eligible_regions, provider)
+}
 
 # HTTP call to get scheduling details
 scheduling_details := http.send({
 	"method": "POST",
-	"url": ai_inference_server_mock_url,
+	"url": scheduler_url,
 	"body": {
-		"eligible_regions": eligible_regions,
+		"eligible_regions": eligible_electricity_maps_regions,
 		"deadline": deadline,
-		"duration": duration,
+		"duration": duration, 
+		"cpu": cpu,
+		"memory": memory,
+		"req_timeout": "10s" # scheduler wants to know the timeout
 	},
 	"timeout": "10s",
 })
@@ -122,7 +148,7 @@ patch[patchCode] {
 
 	# Ensure HTTP call was successful
 	scheduling_details.status_code == 200
-	schedulingLocation := scheduling_details.body.schedulingRegion
+	schedulingLocation := scheduling_details.body.schedulingLocation
 	print(sprintf("schedulingLocation: %s", [schedulingLocation]))
 
 	# Patch to add schedulingLocation if not present
@@ -147,7 +173,7 @@ patch[patchCode] {
 
 	# Ensure HTTP call was successful
 	scheduling_details.status_code == 200
-	schedulingLocation := scheduling_details.body.schedulingRegion
+	schedulingLocation := scheduling_details.body.schedulingLocation
 	print(sprintf("schedulingLocation: %s", [schedulingLocation]))
 
 	# Patch to replace existing schedulingTime
@@ -173,8 +199,8 @@ patch[patchCode] {
 
 	patchCode = {
 		"op": "add",
-		"path": "/spec/schedulingTime",
-		"value": const_scheduling_time,
+		"path": "/spec/schedulingLocation",
+		"value": const_scheduling_location
 	}
 
 	print("After LOCATION fallback patch (3)")

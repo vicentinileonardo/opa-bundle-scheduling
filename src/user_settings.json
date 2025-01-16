@@ -4,6 +4,8 @@
         "originRegion": "italynorth",
         "gdprCompliance": {
             "enabled": true
-        }
+        },
+        "defaultSchedulingTime": "2049-03-15T11:34:45Z",
+        "defaultSchedulingLocation": "italynorth"
     }
 }

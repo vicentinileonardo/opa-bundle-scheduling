@@ -47,6 +47,16 @@ oras push docker.io/<DOCKER_USERNAME>/test-opa-bundle-scheduling:latest \
 --config config.json:application/vnd.oci.image.config.v1+json bundle.tar.gz:application/vnd.oci.image.layer.v1.tar+gzip
 ```
 
+## Local testing
+
+```bash
+
+opa build src
+
+opa eval -b bundle.tar.gz -i test/admission_review.json --format pretty "data.system"
+
+```
+
 ## References
 
 - [OPA Bundles in OCI registries](https://www.openpolicyagent.org/docs/latest/management-bundles/#oci-registry)
