@@ -12,7 +12,7 @@ const_scheduling_time := data.userSettings.defaultSchedulingTime		 # Hardcoded I
 const_scheduling_location := data.userSettings.defaultSchedulingLocation # Hardcoded 'italynorth' (azure) (for fallback)
 
 # Retrieve URL from environment variable (OPA configuration)
-scheduler_url := opa.runtime().env.AI_INFERENCE_SERVER_MOCK_URL
+scheduler_url := opa.runtime().env.SCHEDULER_URL
 
 origin_region := data.userSettings.originRegion
 max_latency := input.request.object.spec.maxLatency
