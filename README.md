@@ -11,7 +11,7 @@ Create GitHub repository secrets for the following:
 - `REGISTRY_PASSWORD`
 - `REGISTRY_NAMESPACE`
 
-For individual accounts, `REGISTRY_NAMESPACE` is the same as the `REGISTRY_USERNAME`.
+For individual accounts, `REGISTRY_NAMESPACE` is the same as the `REGISTRY_USERNAME` (but needs to be set).
 
 In order to trigger the GitHub Action, you need to push a tag to the repository:
 ```bash
@@ -26,6 +26,7 @@ This alternative method is useful when you want to push the bundle directly to a
 Normally, using the GitHub Action in the current GitHub repository is the preferred way to push the bundle to an OCI registry.
 
 ### Prerequisites
+
 - [OPA](https://www.openpolicyagent.org/docs/latest/#running-opa)
 - [ORAS CLI](https://oras.land/docs/installation)
 
@@ -65,3 +66,9 @@ opa eval -b bundle.tar.gz -i test/admission_review.json --format pretty "data.sy
 
 Azure latency data is obtained from the Azure Docs.
 Raw data is available in the `raw_data` directory just for reference.
+
+Sources:
+- https://gist.github.com/lpellegr/8ed204b10c2589a1fb925a160191b974
+- https://datacenters.microsoft.com/globe/explore
+- https://github.com/electricitymaps/zone-finder
+- https://app.electricitymaps.com/map/72h/hourly

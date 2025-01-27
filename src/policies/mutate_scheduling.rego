@@ -8,10 +8,8 @@ package system
 # Adds or replaces schedulingTime and schedulingLocation in VmTemplate spec
 ############################################################
 
-const_scheduling_time := data.userSettings.defaultSchedulingTime			# Hardcoded ISO 8601 timestamp (for fallback)
-const_scheduling_location := data.userSettings.defaultSchedulingLocation
-
-#scheduler_url := "http://ai-inference-server-mock.ai-inference-server-mock.svc.cluster.local:8080/scheduling"
+const_scheduling_time := data.userSettings.defaultSchedulingTime		 # Hardcoded ISO 8601 timestamp (for fallback)
+const_scheduling_location := data.userSettings.defaultSchedulingLocation # Hardcoded 'italynorth' (azure) (for fallback)
 
 # Retrieve URL from environment variable (OPA configuration)
 scheduler_url := opa.runtime().env.AI_INFERENCE_SERVER_MOCK_URL
@@ -84,8 +82,6 @@ patch[patchCode] {
 		"value": schedulingTime,
 	}
 
-	print("with ENV_VARIABLE (1)")
-	print("After TIME add patch (1)")
 }
 
 patch[patchCode] {
@@ -109,28 +105,41 @@ patch[patchCode] {
 		"path": "/spec/schedulingTime",
 		"value": schedulingTime,
 	}
-	
-	print("with ENV_VARIABLE (2)")
-	print("After TIME replace patch (2)")
+
 }
 
-# Fallback rules in case HTTP call fails
+# Fallback rule in case HTTP call fails with status code != 200
 patch[patchCode] {
-	isValidRequest
-	isCreateOrUpdate
-	input.request.kind.kind == "VmTemplate"
+    isValidRequest
+    isCreateOrUpdate
+    input.request.kind.kind == "VmTemplate"
 
-	# Fallback to default if HTTP call fails
-	scheduling_details.status_code != 200
-	print(sprintf("pFallback, status code: %d", [scheduling_details.status_code]))
+    # Check for failed HTTP call
+    scheduling_details.status_code != 200
 
-	patchCode = {
-		"op": "add",
-		"path": "/spec/schedulingTime",
-		"value": const_scheduling_time,
-	}
+    print(sprintf("Falling back to default scheduling time. Status code: %v", [scheduling_details.status_code]))
 
-	print("After TIME fallback patch (3)")
+    patchCode := {
+        "op": "add",
+        "path": "/spec/schedulingTime",
+        "value": const_scheduling_time
+    }
+}
+
+# Fallback rule in case of missing scheduling details
+patch[patchCode] {
+    isValidRequest
+    isCreateOrUpdate
+    input.request.kind.kind == "VmTemplate"
+    not scheduling_details
+
+    print("Falling back to default scheduling time. No details available.")
+
+    patchCode := {
+        "op": "add",
+        "path": "/spec/schedulingTime",
+        "value": const_scheduling_time
+    }
 }
 
 
@@ -159,7 +168,6 @@ patch[patchCode] {
 		"value": schedulingLocation,
 	}
 
-	print("After LOCATION add patch (1)")
 }
 
 patch[patchCode] {
@@ -183,25 +191,38 @@ patch[patchCode] {
 		"path": "/spec/schedulingLocation",
 		"value": schedulingLocation,
 	}
-
-	print("After LOCATION replace patch (2)")
 }
 
-# Fallback rules in case HTTP call fails
+# Fallback rule in case HTTP call fails with status code != 200
 patch[patchCode] {
-	isValidRequest
-	isCreateOrUpdate
-	input.request.kind.kind == "VmTemplate"
+    isValidRequest
+    isCreateOrUpdate
+    input.request.kind.kind == "VmTemplate"
 
-	# Fallback to default if HTTP call fails
-	scheduling_details.status_code != 200
-	print(sprintf("pFallback, status code: %d", [scheduling_details.status_code]))
+    # Check for failed HTTP call
+    scheduling_details.status_code != 200
 
-	patchCode = {
-		"op": "add",
-		"path": "/spec/schedulingLocation",
-		"value": const_scheduling_location
-	}
+    print(sprintf("Falling back to default scheduling location. Status code: %v", [scheduling_details.status_code]))
 
-	print("After LOCATION fallback patch (3)")
+    patchCode := {
+        "op": "add",
+        "path": "/spec/schedulingLocation",
+        "value": const_scheduling_location
+    }
+}
+
+# Fallback rule in case of missing scheduling details
+patch[patchCode] {
+    isValidRequest
+    isCreateOrUpdate
+    input.request.kind.kind == "VmTemplate"
+    not scheduling_details
+
+    print("Falling back to default scheduling location. No details available.")
+
+    patchCode := {
+        "op": "add",
+        "path": "/spec/schedulingLocation",
+        "value": const_scheduling_location
+    }
 }

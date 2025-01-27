@@ -1,89 +1,329 @@
 {   
     "azure": {
         "cloud_regions": [
-            {"DisplayName": "East US", "Name": "eastus", "RegionalDisplayName": "(US) East US"},
-            {"DisplayName": "East US 2", "Name": "eastus2", "RegionalDisplayName": "(US) East US 2"},
-            {"DisplayName": "South Central US", "Name": "southcentralus", "RegionalDisplayName": "(US) South Central US"},
-            {"DisplayName": "West US 2", "Name": "westus2", "RegionalDisplayName": "(US) West US 2"},
-            {"DisplayName": "West US 3", "Name": "westus3", "RegionalDisplayName": "(US) West US 3"},
-            {"DisplayName": "Australia East", "Name": "australiaeast", "RegionalDisplayName": "(Asia Pacific) Australia East"},
-            {"DisplayName": "Southeast Asia", "Name": "southeastasia", "RegionalDisplayName": "(Asia Pacific) Southeast Asia"},
-            {"DisplayName": "North Europe", "Name": "northeurope", "RegionalDisplayName": "(Europe) North Europe"},
-            {"DisplayName": "Sweden Central", "Name": "swedencentral", "RegionalDisplayName": "(Europe) Sweden Central"},
-            {"DisplayName": "UK South", "Name": "uksouth", "RegionalDisplayName": "(Europe) UK South"},
-            {"DisplayName": "West Europe", "Name": "westeurope", "RegionalDisplayName": "(Europe) West Europe"},
-            {"DisplayName": "Central US", "Name": "centralus", "RegionalDisplayName": "(US) Central US"},
-            {"DisplayName": "South Africa North", "Name": "southafricanorth", "RegionalDisplayName": "(Africa) South Africa North"},
-            {"DisplayName": "Central India", "Name": "centralindia", "RegionalDisplayName": "(Asia Pacific) Central India"},
-            {"DisplayName": "East Asia", "Name": "eastasia", "RegionalDisplayName": "(Asia Pacific) East Asia"},
-            {"DisplayName": "Japan East", "Name": "japaneast", "RegionalDisplayName": "(Asia Pacific) Japan East"},
-            {"DisplayName": "Korea Central", "Name": "koreacentral", "RegionalDisplayName": "(Asia Pacific) Korea Central"},
-            {"DisplayName": "Canada Central", "Name": "canadacentral", "RegionalDisplayName": "(Canada) Canada Central"},
-            {"DisplayName": "France Central", "Name": "francecentral", "RegionalDisplayName": "(Europe) France Central", "ElectricityMapsName": "FR" },
-            {"DisplayName": "Germany West Central", "Name": "germanywestcentral", "RegionalDisplayName": "(Europe) Germany West Central"},
-            {"DisplayName": "Italy North", "Name": "italynorth", "RegionalDisplayName": "(Europe) Italy North", "ElectricityMapsName": "IT-NO"},
-            {"DisplayName": "Norway East", "Name": "norwayeast", "RegionalDisplayName": "(Europe) Norway East"},
-            {"DisplayName": "Poland Central", "Name": "polandcentral", "RegionalDisplayName": "(Europe) Poland Central"},
-            {"DisplayName": "Switzerland North", "Name": "switzerlandnorth", "RegionalDisplayName": "(Europe) Switzerland North"},
-            {"DisplayName": "UAE North", "Name": "uaenorth", "RegionalDisplayName": "(Middle East) UAE North"},
-            {"DisplayName": "Brazil South", "Name": "brazilsouth", "RegionalDisplayName": "(South America) Brazil South"},
-            {"DisplayName": "Central US EUAP", "Name": "centraluseuap", "RegionalDisplayName": "(US) Central US EUAP"},
-            {"DisplayName": "Israel Central", "Name": "israelcentral", "RegionalDisplayName": "(Middle East) Israel Central"},
-            {"DisplayName": "Qatar Central", "Name": "qatarcentral", "RegionalDisplayName": "(Middle East) Qatar Central"},
-            {"DisplayName": "Central US (Stage)", "Name": "centralusstage", "RegionalDisplayName": "(US) Central US (Stage)"},
-            {"DisplayName": "East US (Stage)", "Name": "eastusstage", "RegionalDisplayName": "(US) East US (Stage)"},
-            {"DisplayName": "East US 2 (Stage)", "Name": "eastus2stage", "RegionalDisplayName": "(US) East US 2 (Stage)"},
-            {"DisplayName": "North Central US (Stage)", "Name": "northcentralusstage", "RegionalDisplayName": "(US) North Central US (Stage)"},
-            {"DisplayName": "South Central US (Stage)", "Name": "southcentralusstage", "RegionalDisplayName": "(US) South Central US (Stage)"},
-            {"DisplayName": "West US (Stage)", "Name": "westusstage", "RegionalDisplayName": "(US) West US (Stage)"},
-            {"DisplayName": "West US 2 (Stage)", "Name": "westus2stage", "RegionalDisplayName": "(US) West US 2 (Stage)"},
-            {"DisplayName": "Asia", "Name": "asia", "RegionalDisplayName": "Asia"},
-            {"DisplayName": "Asia Pacific", "Name": "asiapacific", "RegionalDisplayName": "Asia Pacific"},
-            {"DisplayName": "Australia", "Name": "australia", "RegionalDisplayName": "Australia"},
-            {"DisplayName": "Brazil", "Name": "brazil", "RegionalDisplayName": "Brazil"},
-            {"DisplayName": "Canada", "Name": "canada", "RegionalDisplayName": "Canada"},
-            {"DisplayName": "Europe", "Name": "europe", "RegionalDisplayName": "Europe"},
-            {"DisplayName": "France", "Name": "france", "RegionalDisplayName": "France"},
-            {"DisplayName": "Germany", "Name": "germany", "RegionalDisplayName": "Germany"},
-            {"DisplayName": "Global", "Name": "global", "RegionalDisplayName": "Global"},
-            {"DisplayName": "India", "Name": "india", "RegionalDisplayName": "India"},
-            {"DisplayName": "Japan", "Name": "japan", "RegionalDisplayName": "Japan"},
-            {"DisplayName": "Korea", "Name": "korea", "RegionalDisplayName": "Korea"},
-            {"DisplayName": "Norway", "Name": "norway", "RegionalDisplayName": "Norway"},
-            {"DisplayName": "Singapore", "Name": "singapore", "RegionalDisplayName": "Singapore"},
-            {"DisplayName": "South Africa", "Name": "southafrica", "RegionalDisplayName": "South Africa"},
-            {"DisplayName": "Sweden", "Name": "sweden", "RegionalDisplayName": "Sweden"},
-            {"DisplayName": "Switzerland", "Name": "switzerland", "RegionalDisplayName": "Switzerland"},
-            {"DisplayName": "United Arab Emirates", "Name": "uae", "RegionalDisplayName": "United Arab Emirates"},
-            {"DisplayName": "United Kingdom", "Name": "uk", "RegionalDisplayName": "United Kingdom"},
-            {"DisplayName": "United States", "Name": "unitedstates", "RegionalDisplayName": "United States"},
-            {"DisplayName": "United States EUAP", "Name": "unitedstateseuap", "RegionalDisplayName": "United States EUAP"},
-            {"DisplayName": "East Asia (Stage)", "Name": "eastasiastage", "RegionalDisplayName": "(Asia Pacific) East Asia (Stage)"},
-            {"DisplayName": "Southeast Asia (Stage)", "Name": "southeastasiastage", "RegionalDisplayName": "(Asia Pacific) Southeast Asia (Stage)"},
-            {"DisplayName": "Brazil US", "Name": "brazilus", "RegionalDisplayName": "(South America) Brazil US"},
-            {"DisplayName": "East US STG", "Name": "eastusstg", "RegionalDisplayName": "(US) East US STG"},
-            {"DisplayName": "North Central US", "Name": "northcentralus", "RegionalDisplayName": "(US) North Central US"},
-            {"DisplayName": "West US", "Name": "westus", "RegionalDisplayName": "(US) West US"},
-            {"DisplayName": "Japan West", "Name": "japanwest", "RegionalDisplayName": "(Asia Pacific) Japan West"},
-            {"DisplayName": "Jio India West", "Name": "jioindiawest", "RegionalDisplayName": "(Asia Pacific) Jio India West"},
-            {"DisplayName": "East US 2 EUAP", "Name": "eastus2euap", "RegionalDisplayName": "(US) East US 2 EUAP"},
-            {"DisplayName": "West Central US", "Name": "westcentralus", "RegionalDisplayName": "(US) West Central US"},
-            {"DisplayName": "South Africa West", "Name": "southafricawest", "RegionalDisplayName": "(Africa) South Africa West"},
-            {"DisplayName": "Australia Central", "Name": "australiacentral", "RegionalDisplayName": "(Asia Pacific) Australia Central"},
-            {"DisplayName": "Australia Central 2", "Name": "australiacentral2", "RegionalDisplayName": "(Asia Pacific) Australia Central 2"},
-            {"DisplayName": "Australia Southeast", "Name": "australiasoutheast", "RegionalDisplayName": "(Asia Pacific) Australia Southeast"},
-            {"DisplayName": "Jio India Central", "Name": "jioindiacentral", "RegionalDisplayName": "(Asia Pacific) Jio India Central"},
-            {"DisplayName": "Korea South", "Name": "koreasouth", "RegionalDisplayName": "(Asia Pacific) Korea South"},
-            {"DisplayName": "South India", "Name": "southindia", "RegionalDisplayName": "(Asia Pacific) South India"},
-            {"DisplayName": "West India", "Name": "westindia", "RegionalDisplayName": "(Asia Pacific) West India"},
-            {"DisplayName": "Canada East", "Name": "canadaeast", "RegionalDisplayName": "(Canada) Canada East"},
-            {"DisplayName": "France South", "Name": "francesouth", "RegionalDisplayName": "(Europe) France South", "ElectricityMapsName": "FR"},
-            {"DisplayName": "Germany North", "Name": "germanynorth", "RegionalDisplayName": "(Europe) Germany North"},
-            {"DisplayName": "Norway West", "Name": "norwaywest", "RegionalDisplayName": "(Europe) Norway West"},
-            {"DisplayName": "Switzerland West", "Name": "switzerlandwest", "RegionalDisplayName": "(Europe) Switzerland West"},
-            {"DisplayName": "UK West", "Name": "ukwest", "RegionalDisplayName": "(Europe) UK West"},
-            {"DisplayName": "UAE Central", "Name": "uaecentral", "RegionalDisplayName": "(Middle East) UAE Central"},
-            {"DisplayName": "Brazil Southeast", "Name": "brazilsoutheast", "RegionalDisplayName": "(South America) Brazil Southeast"}
+            {
+                "Name": "australiacentral",
+                "DisplayName": "Australia Central",
+                "RegionalDisplayName": "(Asia Pacific) Australia Central",
+                "PhysicalLocation": "Canberra",
+                "ElectricityMapsName": "AU-NSW"
+            },
+            {
+                "Name": "australiacentral2",
+                "DisplayName": "Australia Central 2",
+                "RegionalDisplayName": "(Asia Pacific) Australia Central 2",
+                "PhysicalLocation": "Canberra",
+                "ElectricityMapsName": "AU-NSW"
+            },
+            {
+                "Name": "australiaeast",
+                "DisplayName": "Australia East",
+                "RegionalDisplayName": "(Asia Pacific) Australia East",
+                "PhysicalLocation": "New South Wales",
+                "ElectricityMapsName": "AU-NSW"
+            },
+            {
+                "Name": "australiasoutheast",
+                "DisplayName": "Australia Southeast",
+                "RegionalDisplayName": "(Asia Pacific) Australia Southeast",
+                "PhysicalLocation": "Victoria",
+                "ElectricityMapsName": "AU-VIC"
+            },
+            {
+                "Name": "brazilsouth",
+                "DisplayName": "Brazil South",
+                "RegionalDisplayName": "(South America) Brazil South",
+                "PhysicalLocation": "São Paulo State",
+                "ElectricityMapsName": "BR-CS"
+            },
+            {
+                "Name": "canadacentral",
+                "DisplayName": "Canada Central",
+                "RegionalDisplayName": "(Canada) Canada Central",
+                "PhysicalLocation": "Toronto",
+                "ElectricityMapsName": "CA-ON"
+            },
+            {
+                "Name": "canadaeast",
+                "DisplayName": "Canada East",
+                "RegionalDisplayName": "(Canada) Canada East",
+                "PhysicalLocation": "Quebec City",
+                "ElectricityMapsName": "CA-QC"
+            },
+            {
+                "Name": "centralindia",
+                "DisplayName": "Central India",
+                "RegionalDisplayName": "(Asia Pacific) Central India",
+                "PhysicalLocation": "Pune",
+                "ElectricityMapsName": "IN-WE"
+            },
+            {
+                "Name": "centralus",
+                "DisplayName": "Central US",
+                "RegionalDisplayName": "(US) Central US",
+                "PhysicalLocation": "Iowa",
+                "ElectricityMapsName": "US-MIDW-MISO"
+            },
+            {
+                "Name": "eastasia",
+                "DisplayName": "East Asia",
+                "RegionalDisplayName": "(Asia Pacific) East Asia",
+                "PhysicalLocation": "Hong Kong",
+                "ElectricityMapsName": "HK"
+            },
+            {
+                "Name": "eastus",
+                "DisplayName": "East US",
+                "RegionalDisplayName": "(US) East US",
+                "PhysicalLocation": "Virginia",
+                "ElectricityMapsName": "US-MIDA-PJM"
+            },
+            {
+                "Name": "eastus2",
+                "DisplayName": "East US 2",
+                "RegionalDisplayName": "(US) East US 2",
+                "PhysicalLocation": "Virginia",
+                "ElectricityMapsName": "US-MIDA-PJM"
+            },
+            {
+                "Name": "francecentral",
+                "DisplayName": "France Central",
+                "RegionalDisplayName": "(Europe) France Central",
+                "PhysicalLocation": "Paris",
+                "ElectricityMapsName": "FR"
+            },
+            {
+                "Name": "francesouth",
+                "DisplayName": "France South",
+                "RegionalDisplayName": "(Europe) France South",
+                "PhysicalLocation": "Marseille",
+                "ElectricityMapsName": "FR"
+            },
+            {
+                "Name": "germanynorth",
+                "DisplayName": "Germany North",
+                "RegionalDisplayName": "(Europe) Germany North",
+                "PhysicalLocation": "Berlin",
+                "ElectricityMapsName": "DE"
+            },
+            {
+                "Name": "germanywestcentral",
+                "DisplayName": "Germany West Central",
+                "RegionalDisplayName": "(Europe) Germany West Central",
+                "PhysicalLocation": "Frankfurt",
+                "ElectricityMapsName": "DE"
+            },
+            {
+                "Name": "israelcentral",
+                "DisplayName": "Israel Central",
+                "RegionalDisplayName": "(Middle East) Israel Central",
+                "PhysicalLocation": "Israel",
+                "ElectricityMapsName": "IL"
+            },
+            {
+                "Name": "italynorth",
+                "DisplayName": "Italy North",
+                "RegionalDisplayName": "(Europe) Italy North",
+                "PhysicalLocation": "Milan",
+                "ElectricityMapsName": "IT-NO"
+            },
+            {
+                "Name": "japaneast",
+                "DisplayName": "Japan East",
+                "RegionalDisplayName": "(Asia Pacific) Japan East",
+                "PhysicalLocation": "Tokyo, Saitama",
+                "ElectricityMapsName": "JP-TK"
+            },
+            {
+                "Name": "japanwest",
+                "DisplayName": "Japan West",
+                "RegionalDisplayName": "(Asia Pacific) Japan West",
+                "PhysicalLocation": "Osaka",
+                "ElectricityMapsName": "JP-KN"
+            },
+            {
+                "Name": "koreacentral",
+                "DisplayName": "Korea Central",
+                "RegionalDisplayName": "(Asia Pacific) Korea Central",
+                "PhysicalLocation": "Seoul",
+                "ElectricityMapsName": "KR"
+            },
+            {
+                "Name": "koreasouth",
+                "DisplayName": "Korea South",
+                "RegionalDisplayName": "(Asia Pacific) Korea South",
+                "PhysicalLocation": "Busan",
+                "ElectricityMapsName": "KR"
+            },
+            {
+                "Name": "northcentralus",
+                "DisplayName": "North Central US",
+                "RegionalDisplayName": "(US) North Central US",
+                "PhysicalLocation": "Texas",
+                "ElectricityMapsName": "US-TEX-ERCO"
+            },
+            {
+                "Name": "northeurope",
+                "DisplayName": "North Europe",
+                "RegionalDisplayName": "(Europe) North Europe",
+                "PhysicalLocation": "Ireland",
+                "ElectricityMapsName": "IE"
+            },
+            {
+                "Name": "norwayeast",
+                "DisplayName": "Norway East",
+                "RegionalDisplayName": "(Europe) Norway East",
+                "PhysicalLocation": "Norway",
+                "ElectricityMapsName": "NO-NO1"
+            },
+            {
+                "Name": "norwaywest",
+                "DisplayName": "Norway West",
+                "RegionalDisplayName": "(Europe) Norway West",
+                "PhysicalLocation": "Norway",
+                "ElectricityMapsName": "NO-NO2"
+            },
+            {
+                "Name": "polandcentral",
+                "DisplayName": "Poland Central",
+                "RegionalDisplayName": "(Europe) Poland Central",
+                "PhysicalLocation": "Warsaw",
+                "ElectricityMapsName": "PL"
+            },
+            {
+                "Name": "qatarcentral",
+                "DisplayName": "Qatar Central",
+                "RegionalDisplayName": "(Middle East) Qatar Central",
+                "PhysicalLocation": "Doha",
+                "ElectricityMapsName": "QA"
+            },
+            {
+                "Name": "southafricanorth",
+                "DisplayName": "South Africa North",
+                "RegionalDisplayName": "(Africa) South Africa North",
+                "PhysicalLocation": "Johannesburg",
+                "ElectricityMapsName": "ZA"
+            },
+            {
+                "Name": "southafricawest",
+                "DisplayName": "South Africa West",
+                "RegionalDisplayName": "(Africa) South Africa West",
+                "PhysicalLocation": "Cape Town",
+                "ElectricityMapsName": "ZA"
+            },
+            {
+                "Name": "southcentralus",
+                "DisplayName": "South Central US",
+                "RegionalDisplayName": "(US) South Central US",
+                "PhysicalLocation": "Texas",
+                "ElectricityMapsName": "US-TEX-ERCO"
+
+            },
+            {
+                "Name": "southeastasia",
+                "DisplayName": "Southeast Asia",
+                "RegionalDisplayName": "(Asia Pacific) Southeast Asia",
+                "PhysicalLocation": "Singapore",
+                "ElectricityMapsName": "SG"
+            },
+            {
+                "Name": "southindia",
+                "DisplayName": "South India",
+                "RegionalDisplayName": "(Asia Pacific) South India",
+                "PhysicalLocation": "Pune",
+                "ElectricityMapsName": "IN-WE"
+            },
+            {
+                "Name": "swedencentral",
+                "DisplayName": "Sweden Central",
+                "RegionalDisplayName": "(Europe) Sweden Central",
+                "PhysicalLocation": "Gävle",
+                "ElectricityMapsName": "SE-SE3"
+            },
+            {
+                "Name": "switzerlandnorth",
+                "DisplayName": "Switzerland North",
+                "RegionalDisplayName": "(Europe) Switzerland North",
+                "PhysicalLocation": "Zurich",
+                "ElectricityMapsName": "CH"
+            },
+            {
+                "Name": "switzerlandwest",
+                "DisplayName": "Switzerland West",
+                "RegionalDisplayName": "(Europe) Switzerland West",
+                "PhysicalLocation": "Geneva",
+                "ElectricityMapsName": "CH"
+            },
+            {
+                "Name": "uaecentral",
+                "DisplayName": "UAE Central",
+                "RegionalDisplayName": "(Middle East) UAE Central",
+                "PhysicalLocation": "Abu Dhabi",
+                "ElectricityMapsName": "AE"
+            },
+            {
+                "Name": "uaenorth",
+                "DisplayName": "UAE North",
+                "RegionalDisplayName": "(Middle East) UAE North",
+                "PhysicalLocation": "Dubai",
+                "ElectricityMapsName": "AE"
+            },
+            {
+                "Name": "uksouth",
+                "DisplayName": "UK South",
+                "RegionalDisplayName": "(Europe) UK South",
+                "PhysicalLocation": "London",
+                "ElectricityMapsName": "GB"
+            },
+            {
+                "Name": "ukwest",
+                "DisplayName": "UK West",
+                "RegionalDisplayName": "(Europe) UK West",
+                "PhysicalLocation": "Cardiff",
+                "ElectricityMapsName": "GB"
+            },
+            {
+                "Name": "westcentralus",
+                "DisplayName": "West Central US",
+                "RegionalDisplayName": "(US) West Central US",
+                "PhysicalLocation": "Wyoming",
+                "ElectricityMapsName": "US-NW-PACE"
+            },
+            {
+                "Name": "westeurope",
+                "DisplayName": "West Europe",
+                "RegionalDisplayName": "(Europe) West Europe",
+                "PhysicalLocation": "Netherlands",
+                "ElectricityMapsName": "NL"
+            },
+            {
+                "Name": "westindia",
+                "DisplayName": "West India",
+                "RegionalDisplayName": "(Asia Pacific) West India",
+                "PhysicalLocation": "Mumbai",
+                "ElectricityMapsName": "IN-WE"
+            },
+            {
+                "Name": "westus",
+                "DisplayName": "West US",
+                "RegionalDisplayName": "(US) West US",
+                "PhysicalLocation": "California",
+                "ElectricityMapsName": "US-CAL-CISO"
+            },
+            {
+                "Name": "westus2",
+                "DisplayName": "West US 2",
+                "RegionalDisplayName": "(US) West US 2",
+                "PhysicalLocation": "Washington",
+                "ElectricityMapsName": "US-NW-GCPD"
+            },
+            {
+                "Name": "westus3",
+                "DisplayName": "West US 3",
+                "RegionalDisplayName": "(US) West US 3",
+                "PhysicalLocation": "Phoenix",
+                "ElectricityMapsName": "US-SW-SRP"
+            }
         ],
         "latency_matrix": {
             "australiacentral": {
