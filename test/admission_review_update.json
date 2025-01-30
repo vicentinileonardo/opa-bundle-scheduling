@@ -21,7 +21,7 @@
           "namespace": "default",
           "labels": {
             "app": "test-app",
-            "optimization": "12345678"
+            "greenops-optimization": "12345678"
           }
         },
         "spec": {
