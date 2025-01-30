@@ -59,7 +59,7 @@ scheduling_details := http.send({
 
 ##### TIME #####
 
-# Patch to add or replace schedulingTime in VmTemplate spec
+# CREATE, EXTERNAL REQUEST OK
 patch[patchCode] {
 	isValidRequest
 	isCreateOrUpdate
@@ -74,7 +74,7 @@ patch[patchCode] {
 	schedulingTime := scheduling_details.body.schedulingTime
 	print(sprintf("schedulingTime: %s", [schedulingTime]))
 
-	# Patch to add schedulingTime if not present
+	# Patch to add schedulingTime if not present (i.e. create)
 	not input.request.object.spec.schedulingTime
 	patchCode = {
 		"op": "add",
@@ -84,10 +84,14 @@ patch[patchCode] {
 
 }
 
+# UPDATE, EXTERNAL REQUEST OK
 patch[patchCode] {
 	isValidRequest
 	isCreateOrUpdate
 	input.request.kind.kind == "VmTemplate"
+
+	# check if label is present
+	input.request.object.metadata.labels["optimization"]
 
 	# Log the HTTP request details
 	print(sprintf("HTTP Response Body: %s", [scheduling_details.body]))
@@ -108,7 +112,7 @@ patch[patchCode] {
 
 }
 
-# Fallback rule in case HTTP call fails with status code != 200
+# CREATE, Fallback rule in case HTTP call fails with status code != 200
 patch[patchCode] {
     isValidRequest
     isCreateOrUpdate
@@ -119,6 +123,8 @@ patch[patchCode] {
 
     print(sprintf("Falling back to default scheduling time. Status code: %v", [scheduling_details.status_code]))
 
+	# Patch to add schedulingTime if not present (i.e. create)
+	not input.request.object.spec.schedulingTime
     patchCode := {
         "op": "add",
         "path": "/spec/schedulingTime",
@@ -126,7 +132,7 @@ patch[patchCode] {
     }
 }
 
-# Fallback rule in case of missing scheduling details
+# CREATE, Fallback rule in case of missing scheduling details
 patch[patchCode] {
     isValidRequest
     isCreateOrUpdate
@@ -135,6 +141,8 @@ patch[patchCode] {
 
     print("Falling back to default scheduling time. No details available.")
 
+	# Patch to add schedulingTime if not present (i.e. create)
+	not input.request.object.spec.schedulingTime
     patchCode := {
         "op": "add",
         "path": "/spec/schedulingTime",
@@ -145,7 +153,7 @@ patch[patchCode] {
 
 ##### LOCATION #####
 
-# Patch to add or replace schedulingLocation in VmTemplate spec
+# CREATE, EXTERNAL REQUEST OK
 patch[patchCode] {
 	isValidRequest
 	isCreateOrUpdate
@@ -170,10 +178,14 @@ patch[patchCode] {
 
 }
 
+# UPDATE, EXTERNAL REQUEST OK
 patch[patchCode] {
 	isValidRequest
 	isCreateOrUpdate
 	input.request.kind.kind == "VmTemplate"
+
+	# check if label is present
+	input.request.object.metadata.labels["optimization"]
 
 	# Log the HTTP request details
 	print(sprintf("HTTP Response Body: %s", [scheduling_details.body]))
@@ -193,7 +205,7 @@ patch[patchCode] {
 	}
 }
 
-# Fallback rule in case HTTP call fails with status code != 200
+# CREATE, Fallback rule in case HTTP call fails with status code != 200
 patch[patchCode] {
     isValidRequest
     isCreateOrUpdate
@@ -204,6 +216,7 @@ patch[patchCode] {
 
     print(sprintf("Falling back to default scheduling location. Status code: %v", [scheduling_details.status_code]))
 
+	not input.request.object.spec.schedulingLocation
     patchCode := {
         "op": "add",
         "path": "/spec/schedulingLocation",
@@ -211,7 +224,7 @@ patch[patchCode] {
     }
 }
 
-# Fallback rule in case of missing scheduling details
+# CREATE, Fallback rule in case of missing scheduling details
 patch[patchCode] {
     isValidRequest
     isCreateOrUpdate
@@ -220,6 +233,7 @@ patch[patchCode] {
 
     print("Falling back to default scheduling location. No details available.")
 
+	not input.request.object.spec.schedulingLocation
     patchCode := {
         "op": "add",
         "path": "/spec/schedulingLocation",

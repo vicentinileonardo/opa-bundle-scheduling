@@ -1,0 +1,43 @@
+{
+    "kind": "AdmissionReview",
+    "apiVersion": "admission.k8s.io/v1",
+    "request": {
+      "uid": "12345678-1234-5678-1234-567812345678",
+      "kind": {
+        "group": "",
+        "version": "v1",
+        "kind": "VmTemplate"
+      },
+      "resource": {
+        "group": "",
+        "version": "v1",
+        "resource": "vmtemplates"
+      },
+      "namespace": "default",
+      "operation": "UPDATE",
+      "object": {
+        "metadata": {
+          "name": "example",
+          "namespace": "default",
+          "labels": {
+            "app": "test-app",
+            "optimization": "12345678"
+          }
+        },
+        "spec": {
+            "deadline": "2025-12-31T23:59:59Z",
+            "duration": "1h",
+            "maxLatency": 30000,
+            "schedulingTime": "2025-12-31T23:59:59Z",
+            "schedulingLocation": "us-east1"
+        }
+      },
+      "oldObject": null,
+      "dryRun": false,
+      "options": {
+        "kind": "CreateOptions",
+        "apiVersion": "meta.k8s.io/v1"
+      }
+    }
+  }
+  
