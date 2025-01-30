@@ -8,7 +8,7 @@ env:
   ORAS_VERSION: 1.2.1
   OPA_VERSION: 0.70.0
   REGISTRY: docker.io
-  REPOSITORY: ${{ secrets.REGISTRY_NAMESPACE }}/test-opa-bundle-scheduling
+  REPOSITORY: ${{ secrets.REGISTRY_NAMESPACE }}/opa-bundle-scheduling
 
 jobs:
   build:
