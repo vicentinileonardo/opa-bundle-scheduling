@@ -47,18 +47,20 @@ scheduling_details := http.send({
 	"method": "POST",
 	"url": scheduler_url,
 	"body": {
+		"number_of_jobs": 1, # currently only one job (workload (VM)) can be scheduled at a time
 		"eligible_regions": eligible_electricity_maps_regions,
 		"deadline": deadline,
 		"duration": duration, 
 		"cpu": cpu,
 		"memory": memory,
-		"req_timeout": "10s" # scheduler wants to know the timeout
+		"req_timeout": "10s" # scheduler wants to know the timeout to tune the execution time of the optimization
 	},
 	"timeout": "10s",
 })
 
 # NOTE: If there is an UPDATE operation and the external request to the scheduler fails, 
-# the existing schedulingTime and schedulingLocation will be retained.
+# the existing schedulingTime and schedulingLocation will be retained. That's why there 
+# is no fallback rule for UPDATE.
 
 ##### TIME #####
 
