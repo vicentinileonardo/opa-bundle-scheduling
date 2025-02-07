@@ -64,6 +64,8 @@ opa eval -b bundle.tar.gz -i test/admission_review.json --format pretty "data.sy
 
 ## Data
 
+### Azure
+
 Azure latency data is obtained from the Azure Docs.
 Raw data is available in the `raw_data` directory just for reference.
 
@@ -72,3 +74,8 @@ Sources:
 - https://datacenters.microsoft.com/globe/explore
 - https://github.com/electricitymaps/zone-finder
 - https://app.electricitymaps.com/map/72h/hourly
+
+### AWS
+
+AWS: https://github.com/ipregistry/aws-regions-location/blob/main/aws-regions-location.csv
+AWS latency data: https://cloudping.co/

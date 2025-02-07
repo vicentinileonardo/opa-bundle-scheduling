@@ -26,7 +26,7 @@
         "spec": {
             "deadline": "2025-12-31T23:59:59Z",
             "duration": "1h",
-            "maxLatency": 30000
+            "maxLatency": 50
         }
       },
       "oldObject": null,
