@@ -53,9 +53,13 @@ scheduling_details := http.send({
 		"duration": duration, 
 		"cpu": cpu,
 		"memory": memory,
-		"req_timeout": "10s" # scheduler wants to know the timeout to tune the execution time of the optimization
+		"req_timeout": 10 # seconds, scheduler wants to know the timeout to tune the execution time of the optimization
 	},
 	"timeout": "10s",
+	"headers": {
+		"Content-Type": "application/json"
+	},
+	"max_retry_attempts": 3,
 })
 
 # NOTE: If there is an UPDATE operation and the external request to the scheduler fails, 
@@ -76,7 +80,7 @@ patch[patchCode] {
 
 	# Ensure HTTP call was successful
 	scheduling_details.status_code == 200
-	schedulingTime := scheduling_details.body.schedulingTime
+	schedulingTime := scheduling_details.body.scheduling_time
 	print(sprintf("schedulingTime: %s", [schedulingTime]))
 
 	# Patch to add schedulingTime if not present (i.e. create)
@@ -167,15 +171,19 @@ patch[patchCode] {
 
 	# Ensure HTTP call was successful
 	scheduling_details.status_code == 200
-	schedulingLocation := scheduling_details.body.schedulingLocation
+	schedulingLocation := scheduling_details.body.scheduling_location
 	print(sprintf("schedulingLocation: %s", [schedulingLocation]))
+
+	# Map ElectricityMaps region to cloud provider region
+	cloudSchedulingRegion := map_from_electricitymaps(schedulingLocation, provider)
+	print(sprintf("cloudSchedulingRegion: %s", [cloudSchedulingRegion]))
 
 	# Patch to add schedulingLocation if not present (i.e. create)
 	not input.request.object.spec.schedulingLocation
 	patchCode = {
 		"op": "add",
 		"path": "/spec/schedulingLocation",
-		"value": schedulingLocation,
+		"value": cloudSchedulingRegion,
 	}
 }
 

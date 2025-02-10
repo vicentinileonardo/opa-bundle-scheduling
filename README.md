@@ -77,5 +77,13 @@ Sources:
 
 ### AWS
 
-AWS: https://github.com/ipregistry/aws-regions-location/blob/main/aws-regions-location.csv
-AWS latency data: https://cloudping.co/
+Sources:
+- AWS: https://github.com/ipregistry/aws-regions-location/blob/main/aws-regions-location.csv
+- AWS latency data: https://cloudping.co/
+
+### GCP
+
+Latency is **synthetic data**.
+
+Sources:
+- https://github.com/GoogleCloudPlatform/region-carbon-info/blob/main/data/yearly/2023.csv

@@ -14,6 +14,8 @@ map_to_electricitymaps(eligible_regions, provider) = em_regions if {
         eligible_region = eligible_regions[_];      # Iterate over eligible regions
         region = data[provider].cloud_regions[_];   # Iterate over provider regions
         region.Name == eligible_region              # Match cloud region name
+        region.ElectricityMapsName != ""            # ElectricityMaps region is not empty
+        region.ElectricityMapsName != "Unknown"     # ElectricityMaps region is not "Unknown"  
     }
 }
 

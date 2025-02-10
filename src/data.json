@@ -33,7 +33,7 @@
                 "Name": "brazilsouth",
                 "DisplayName": "Brazil South",
                 "RegionalDisplayName": "(South America) Brazil South",
-                "PhysicalLocation": "São Paulo State",
+                "PhysicalLocation": "S\u00e3o Paulo State",
                 "ElectricityMapsName": "BR-CS"
             },
             {
@@ -236,7 +236,7 @@
                 "Name": "swedencentral",
                 "DisplayName": "Sweden Central",
                 "RegionalDisplayName": "(Europe) Sweden Central",
-                "PhysicalLocation": "Gävle",
+                "PhysicalLocation": "G\u00e4vle",
                 "ElectricityMapsName": "SE-SE3"
             },
             {
@@ -2457,169 +2457,169 @@
                 "Name": "af-south-1-jnb-1",
                 "DisplayName": "af-south-1-jnb-1",
                 "PhysicalLocation": "Johannesburg",
-                "ElectricityMapsName": "ZA-GT"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "af-south-1-los-1",
                 "DisplayName": "af-south-1-los-1",
                 "PhysicalLocation": "Lagos",
-                "ElectricityMapsName": "NG-LA"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "af-south-1-nbo-1",
                 "DisplayName": "af-south-1-nbo-1",
                 "PhysicalLocation": "Nairobi",
-                "ElectricityMapsName": "KE-30"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "af-south-1",
                 "DisplayName": "af-south-1",
                 "PhysicalLocation": "Cape Town",
-                "ElectricityMapsName": "ZA-WC"
+                "ElectricityMapsName": "ZA"
             },
             {
                 "Name": "ap-east-1",
                 "DisplayName": "ap-east-1",
                 "PhysicalLocation": "Hong Kong",
-                "ElectricityMapsName": "CN-HK"
+                "ElectricityMapsName": "HK"
             },
             {
                 "Name": "ap-northeast-1",
                 "DisplayName": "ap-northeast-1",
                 "PhysicalLocation": "Tokyo",
-                "ElectricityMapsName": "JP-13"
+                "ElectricityMapsName": "JP-TK"
             },
             {
                 "Name": "ap-northeast-1-tpe-1",
                 "DisplayName": "ap-northeast-1-tpe-1",
                 "PhysicalLocation": "Taipei",
-                "ElectricityMapsName": "TW-TPE"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "ap-northeast-1-wl1-kix-wlz-1",
                 "DisplayName": "ap-northeast-1-wl1-kix-wlz-1",
                 "PhysicalLocation": "Osaka",
-                "ElectricityMapsName": "JP-13"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "ap-northeast-1-wl1-nrt-wlz-1",
                 "DisplayName": "ap-northeast-1-wl1-nrt-wlz-1",
                 "PhysicalLocation": "Tokyo",
-                "ElectricityMapsName": "JP-13"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "ap-northeast-2",
                 "DisplayName": "ap-northeast-2",
                 "PhysicalLocation": "Seoul",
-                "ElectricityMapsName": "KR-11"
+                "ElectricityMapsName": "KR"
             },
             {
                 "Name": "ap-northeast-2-wl1-cjj-wlz-1",
                 "DisplayName": "ap-northeast-2-wl1-cjj-wlz-1",
                 "PhysicalLocation": "Daejeon",
-                "ElectricityMapsName": "KR-30"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "ap-northeast-2-wl1-sel-wlz-1",
                 "DisplayName": "ap-northeast-2-wl1-sel-wlz-1",
                 "PhysicalLocation": "Seoul",
-                "ElectricityMapsName": "KR-11"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "ap-northeast-3",
                 "DisplayName": "ap-northeast-3",
                 "PhysicalLocation": "Osaka",
-                "ElectricityMapsName": "JP-13"
+                "ElectricityMapsName": "JP-OS"
             },
             {
                 "Name": "ap-south-1-ccu-1",
                 "DisplayName": "ap-south-1-ccu-1",
                 "PhysicalLocation": "Kolkata",
-                "ElectricityMapsName": "IN-WB"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "ap-south-1-ccu-2",
                 "DisplayName": "ap-south-1-ccu-2",
                 "PhysicalLocation": "Mumbai",
-                "ElectricityMapsName": "IN-MH"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "ap-south-1-del-1",
                 "DisplayName": "ap-south-1-del-1",
                 "PhysicalLocation": "Delhi",
-                "ElectricityMapsName": "IN-DL"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "ap-south-1-del-2",
                 "DisplayName": "ap-south-1-del-2",
                 "PhysicalLocation": "Mumbai",
-                "ElectricityMapsName": "IN-MH"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "ap-south-1",
                 "DisplayName": "ap-south-1",
                 "PhysicalLocation": "Mumbai",
-                "ElectricityMapsName": "IN-MH"
+                "ElectricityMapsName": "IN"
             },
             {
                 "Name": "ap-south-2-blr-1",
                 "DisplayName": "ap-south-2-blr-1",
                 "PhysicalLocation": "Bengaluru",
-                "ElectricityMapsName": "IN-KA"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "ap-south-2",
                 "DisplayName": "ap-south-2",
                 "PhysicalLocation": "Hyderabad",
-                "ElectricityMapsName": "IN-TG"
+                "ElectricityMapsName": "IN"
             },
             {
                 "Name": "ap-south-2-maa-1",
                 "DisplayName": "ap-south-2-maa-1",
                 "PhysicalLocation": "Chennai",
-                "ElectricityMapsName": "IN-TN"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "ap-southeast-1-bkk-1",
                 "DisplayName": "ap-southeast-1-bkk-1",
                 "PhysicalLocation": "Bangkok",
-                "ElectricityMapsName": "TH-10"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "ap-southeast-1-han-1",
                 "DisplayName": "ap-southeast-1-han-1",
                 "PhysicalLocation": "Hanoi",
-                "ElectricityMapsName": "VN-HN"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "ap-southeast-1-mnl-1",
                 "DisplayName": "ap-southeast-1-mnl-1",
                 "PhysicalLocation": "Manila",
-                "ElectricityMapsName": "PH-00"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "ap-southeast-1-sggov-sin-1a",
                 "DisplayName": "ap-southeast-1-sggov-sin-1a",
                 "PhysicalLocation": "Singapore",
-                "ElectricityMapsName": "SG-01"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "ap-southeast-1-sggov-sin-1b",
                 "DisplayName": "ap-southeast-1-sggov-sin-1b",
                 "PhysicalLocation": "Singapore",
-                "ElectricityMapsName": "SG-01"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "ap-southeast-1",
                 "DisplayName": "ap-southeast-1",
                 "PhysicalLocation": "Singapore",
-                "ElectricityMapsName": "SG-01"
+                "ElectricityMapsName": "SG"
             },
             {
                 "Name": "ap-southeast-2-akl-1",
                 "DisplayName": "ap-southeast-2-akl-1",
                 "PhysicalLocation": "Auckland",
-                "ElectricityMapsName": "NZ-AUK"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "ap-southeast-2",
@@ -2631,19 +2631,19 @@
                 "Name": "ap-southeast-2-bne-1",
                 "DisplayName": "ap-southeast-2-bne-1",
                 "PhysicalLocation": "Brisbane",
-                "ElectricityMapsName": "AU-QLD"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "ap-southeast-2-per-1",
                 "DisplayName": "ap-southeast-2-per-1",
                 "PhysicalLocation": "Perth",
-                "ElectricityMapsName": "AU-WA"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "ap-southeast-3",
                 "DisplayName": "ap-southeast-3",
                 "PhysicalLocation": "Jakarta",
-                "ElectricityMapsName": "ID-JK"
+                "ElectricityMapsName": "ID-JW"
             },
             {
                 "Name": "ap-southeast-4",
@@ -2655,235 +2655,235 @@
                 "Name": "ap-southeast-5",
                 "DisplayName": "ap-southeast-5",
                 "PhysicalLocation": "Auckland",
-                "ElectricityMapsName": "NZ-AUK"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "ap-southeast-6",
                 "DisplayName": "ap-southeast-6",
                 "PhysicalLocation": "Auckland",
-                "ElectricityMapsName": "NZ-AUK"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "ca-central-1",
                 "DisplayName": "ca-central-1",
                 "PhysicalLocation": "Montreal",
-                "ElectricityMapsName": "CA-QC"
+                "ElectricityMapsName": "CA-ON"
             },
             {
                 "Name": "ca-central-1-wl1-yto-wlz-1",
                 "DisplayName": "ca-central-1-wl1-yto-wlz-1",
                 "PhysicalLocation": "Toronto",
-                "ElectricityMapsName": "CA-ON"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "ca-central-1-yto-1",
                 "DisplayName": "ca-central-1-yto-1",
                 "PhysicalLocation": "Toronto",
-                "ElectricityMapsName": "CA-ON"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "ca-central-1-yvr-1",
                 "DisplayName": "ca-central-1-yvr-1",
                 "PhysicalLocation": "Vancouver",
-                "ElectricityMapsName": "CA-BC"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "ca-west-1",
                 "DisplayName": "ca-west-1",
                 "PhysicalLocation": "Calgary",
-                "ElectricityMapsName": "CA-AB"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "cn-north-1",
                 "DisplayName": "cn-north-1",
                 "PhysicalLocation": "Beijing",
-                "ElectricityMapsName": "CN-11"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "cn-northwest-1",
                 "DisplayName": "cn-northwest-1",
                 "PhysicalLocation": "Ningxia",
-                "ElectricityMapsName": "CN-64"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "eu-central-1-ams-1",
                 "DisplayName": "eu-central-1-ams-1",
                 "PhysicalLocation": "Amsterdam",
-                "ElectricityMapsName": "NL-NH"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "eu-central-1-ber-1",
                 "DisplayName": "eu-central-1-ber-1",
                 "PhysicalLocation": "Berlin",
-                "ElectricityMapsName": "DE-BE"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "eu-central-1",
                 "DisplayName": "eu-central-1",
                 "PhysicalLocation": "Frankfurt",
-                "ElectricityMapsName": "DE-HE"
+                "ElectricityMapsName": "DE"
             },
             {
                 "Name": "eu-central-1-ham-1",
                 "DisplayName": "eu-central-1-ham-1",
                 "PhysicalLocation": "Hamburg",
-                "ElectricityMapsName": "DE-HH"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "eu-central-1-muc-1",
                 "DisplayName": "eu-central-1-muc-1",
                 "PhysicalLocation": "Munich",
-                "ElectricityMapsName": "DE-BY"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "eu-central-1-prg-1",
                 "DisplayName": "eu-central-1-prg-1",
                 "PhysicalLocation": "Prague",
-                "ElectricityMapsName": "CZ-10"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "eu-central-1-vie-1",
                 "DisplayName": "eu-central-1-vie-1",
                 "PhysicalLocation": "Vienna",
-                "ElectricityMapsName": "AT-9"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "eu-central-1-waw-1",
                 "DisplayName": "eu-central-1-waw-1",
                 "PhysicalLocation": "Warsaw",
-                "ElectricityMapsName": "PL-MZ"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "eu-central-1-wl1-ber-wlz-1",
                 "DisplayName": "eu-central-1-wl1-ber-wlz-1",
                 "PhysicalLocation": "Berlin",
-                "ElectricityMapsName": "DE-BE"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "eu-central-1-wl1-dtm-wlz-1",
                 "DisplayName": "eu-central-1-wl1-dtm-wlz-1",
                 "PhysicalLocation": "Dortmund",
-                "ElectricityMapsName": "DE-NW"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "eu-central-1-wl1-muc-wlz-1",
                 "DisplayName": "eu-central-1-wl1-muc-wlz-1",
                 "PhysicalLocation": "Munich",
-                "ElectricityMapsName": "DE-BY"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "eu-central-2",
                 "DisplayName": "eu-central-2",
                 "PhysicalLocation": "Zurich",
-                "ElectricityMapsName": "CH-ZH"
+                "ElectricityMapsName": "CH"
             },
             {
                 "Name": "eu-north-1-cph-1",
                 "DisplayName": "eu-north-1-cph-1",
                 "PhysicalLocation": "Copenhagen",
-                "ElectricityMapsName": "DK-84"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "eu-north-1-hel-1",
                 "DisplayName": "eu-north-1-hel-1",
                 "PhysicalLocation": "Helsinki",
-                "ElectricityMapsName": "FI-18"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "eu-north-1-osl-1",
                 "DisplayName": "eu-north-1-osl-1",
                 "PhysicalLocation": "Oslo",
-                "ElectricityMapsName": "NO-03"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "eu-north-1",
                 "DisplayName": "eu-north-1",
                 "PhysicalLocation": "Stockholm",
-                "ElectricityMapsName": "SE-AB"
+                "ElectricityMapsName": "SE"
             },
             {
                 "Name": "eu-south-1-ath-1",
                 "DisplayName": "eu-south-1-ath-1",
                 "PhysicalLocation": "Athens",
-                "ElectricityMapsName": "GR-I"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "eu-south-1",
                 "DisplayName": "eu-south-1",
                 "PhysicalLocation": "Milan",
-                "ElectricityMapsName": "IT-25"
+                "ElectricityMapsName": "IT"
             },
             {
                 "Name": "eu-south-2",
                 "DisplayName": "eu-south-2",
                 "PhysicalLocation": "Madrid",
-                "ElectricityMapsName": "ES-MD"
+                "ElectricityMapsName": "ES"
             },
             {
                 "Name": "eu-south-2-lis-1",
                 "DisplayName": "eu-south-2-lis-1",
                 "PhysicalLocation": "Lisbon",
-                "ElectricityMapsName": "PT-11"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "eu-west-1",
                 "DisplayName": "eu-west-1",
                 "PhysicalLocation": "Dublin",
-                "ElectricityMapsName": "IE-L"
+                "ElectricityMapsName": "IE"
             },
             {
                 "Name": "eu-west-2",
                 "DisplayName": "eu-west-2",
                 "PhysicalLocation": "London",
-                "ElectricityMapsName": "GB-LND"
+                "ElectricityMapsName": "GB"
             },
             {
                 "Name": "eu-west-2-wl1-lon-wlz-1",
                 "DisplayName": "eu-west-2-wl1-lon-wlz-1",
                 "PhysicalLocation": "London",
-                "ElectricityMapsName": "GB-LND"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "eu-west-2-wl1-man-wlz-1",
                 "DisplayName": "eu-west-2-wl1-man-wlz-1",
                 "PhysicalLocation": "Manchester",
-                "ElectricityMapsName": "GB-MAN"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "eu-west-2-wl2-man-wlz-1",
                 "DisplayName": "eu-west-2-wl2-man-wlz-1",
                 "PhysicalLocation": "Manchester",
-                "ElectricityMapsName": "GB-MAN"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "eu-west-3-bru-1",
                 "DisplayName": "eu-west-3-bru-1",
                 "PhysicalLocation": "Brussels",
-                "ElectricityMapsName": "BE-BRU"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "eu-west-3",
                 "DisplayName": "eu-west-3",
                 "PhysicalLocation": "Paris",
-                "ElectricityMapsName": "FR-IDF"
+                "ElectricityMapsName": "FR"
             },
             {
                 "Name": "eusc-de-east-1",
                 "DisplayName": "eusc-de-east-1",
                 "PhysicalLocation": "Berlin",
-                "ElectricityMapsName": "DE-BE"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "il-central-1",
                 "DisplayName": "il-central-1",
                 "PhysicalLocation": "Tel Aviv",
-                "ElectricityMapsName": "IL-TA"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "me-central-1",
                 "DisplayName": "me-central-1",
                 "PhysicalLocation": "Dubai",
-                "ElectricityMapsName": "AE-DU"
+                "ElectricityMapsName": "AE"
             },
             {
                 "Name": "me-south-1",
@@ -2895,403 +2895,403 @@
                 "Name": "me-south-1-mct-1",
                 "DisplayName": "me-south-1-mct-1",
                 "PhysicalLocation": "Muscat",
-                "ElectricityMapsName": "OM-MA"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "sa-east-1",
                 "DisplayName": "sa-east-1",
                 "PhysicalLocation": "S\u00e3o Paulo",
-                "ElectricityMapsName": "BR-SP"
+                "ElectricityMapsName": "BR"
             },
             {
                 "Name": "us-east-1-atl-1",
                 "DisplayName": "us-east-1-atl-1",
                 "PhysicalLocation": "Atlanta",
-                "ElectricityMapsName": "US-GA"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "us-east-1-atl-2",
                 "DisplayName": "us-east-1-atl-2",
                 "PhysicalLocation": "Atlanta",
-                "ElectricityMapsName": "US-GA"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "us-east-1-bog-1",
                 "DisplayName": "us-east-1-bog-1",
                 "PhysicalLocation": "Bogota",
-                "ElectricityMapsName": "CO-CUN"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "us-east-1-bos-1",
                 "DisplayName": "us-east-1-bos-1",
                 "PhysicalLocation": "Boston",
-                "ElectricityMapsName": "US-MA"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "us-east-1-bue-1",
                 "DisplayName": "us-east-1-bue-1",
                 "PhysicalLocation": "Buenos Aires",
-                "ElectricityMapsName": "AR-B"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "us-east-1-chi-1",
                 "DisplayName": "us-east-1-chi-1",
                 "PhysicalLocation": "Chicago",
-                "ElectricityMapsName": "US-IL"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "us-east-1-chi-2",
                 "DisplayName": "us-east-1-chi-2",
                 "PhysicalLocation": "Chicago",
-                "ElectricityMapsName": "US-IL"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "us-east-1-dfw-1",
                 "DisplayName": "us-east-1-dfw-1",
                 "PhysicalLocation": "Dallas",
-                "ElectricityMapsName": "US-TX"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "us-east-1-dfw-2",
                 "DisplayName": "us-east-1-dfw-2",
                 "PhysicalLocation": "Herndon",
-                "ElectricityMapsName": "US-VA"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "us-east-1-iah-1",
                 "DisplayName": "us-east-1-iah-1",
                 "PhysicalLocation": "Houston",
-                "ElectricityMapsName": "US-TX"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "us-east-1-iah-2",
                 "DisplayName": "us-east-1-iah-2",
                 "PhysicalLocation": "Houston",
-                "ElectricityMapsName": "US-TX"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "us-east-1-lim-1",
                 "DisplayName": "us-east-1-lim-1",
                 "PhysicalLocation": "Lima",
-                "ElectricityMapsName": "PE-LIM"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "us-east-1-mci-1",
                 "DisplayName": "us-east-1-mci-1",
                 "PhysicalLocation": "Kansas City",
-                "ElectricityMapsName": "US-KS"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "us-east-1-mia-1",
                 "DisplayName": "us-east-1-mia-1",
                 "PhysicalLocation": "Miami",
-                "ElectricityMapsName": "US-FL"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "us-east-1-mia-2",
                 "DisplayName": "us-east-1-mia-2",
                 "PhysicalLocation": "Miami",
-                "ElectricityMapsName": "US-FL"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "us-east-1-msp-1",
                 "DisplayName": "us-east-1-msp-1",
                 "PhysicalLocation": "Minneapolis",
-                "ElectricityMapsName": "US-MN"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "us-east-1-nyc-1",
                 "DisplayName": "us-east-1-nyc-1",
                 "PhysicalLocation": "New York",
-                "ElectricityMapsName": "US-NJ"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "us-east-1-phl-1",
                 "DisplayName": "us-east-1-phl-1",
                 "PhysicalLocation": "Philadelphia",
-                "ElectricityMapsName": "US-PA"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "us-east-1-pilot-1",
                 "DisplayName": "us-east-1-pilot-1",
                 "PhysicalLocation": "Herndon",
-                "ElectricityMapsName": "US-VA"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "us-east-1-pilot-3",
                 "DisplayName": "us-east-1-pilot-3",
                 "PhysicalLocation": "Herndon",
-                "ElectricityMapsName": "US-VA"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "us-east-1-pilot-4",
                 "DisplayName": "us-east-1-pilot-4",
                 "PhysicalLocation": "Herndon",
-                "ElectricityMapsName": "US-VA"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "us-east-1-pilot-5",
                 "DisplayName": "us-east-1-pilot-5",
                 "PhysicalLocation": "Herndon",
-                "ElectricityMapsName": "US-VA"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "us-east-1-pilot-6",
                 "DisplayName": "us-east-1-pilot-6",
                 "PhysicalLocation": "Herndon",
-                "ElectricityMapsName": "US-VA"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "us-east-1-qro-1",
                 "DisplayName": "us-east-1-qro-1",
                 "PhysicalLocation": "Queretaro",
-                "ElectricityMapsName": "MX-QRO"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "us-east-1-rio-1",
                 "DisplayName": "us-east-1-rio-1",
                 "PhysicalLocation": "Rio de Janeiro",
-                "ElectricityMapsName": "BR-RJ"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "us-east-1-scl-1",
                 "DisplayName": "us-east-1-scl-1",
                 "PhysicalLocation": "Santiago",
-                "ElectricityMapsName": "CL-RM"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "us-east-1",
                 "DisplayName": "us-east-1",
                 "PhysicalLocation": "Ashburn",
-                "ElectricityMapsName": "US-VA"
+                "ElectricityMapsName": "US-PJM"
             },
             {
                 "Name": "us-east-1-wl1-atl-wlz-1",
                 "DisplayName": "us-east-1-wl1-atl-wlz-1",
                 "PhysicalLocation": "Atlanta",
-                "ElectricityMapsName": "US-GA"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "us-east-1-wl1-bna-wlz-1",
                 "DisplayName": "us-east-1-wl1-bna-wlz-1",
                 "PhysicalLocation": "Nashville",
-                "ElectricityMapsName": "US-TN"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "us-east-1-wl1-bos-wlz-1",
                 "DisplayName": "us-east-1-wl1-bos-wlz-1",
                 "PhysicalLocation": "Boston",
-                "ElectricityMapsName": "US-MA"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "us-east-1-wl1-chi-wlz-1",
                 "DisplayName": "us-east-1-wl1-chi-wlz-1",
                 "PhysicalLocation": "Chicago",
-                "ElectricityMapsName": "US-IL"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "us-east-1-wl1-clt-wlz-1",
                 "DisplayName": "us-east-1-wl1-clt-wlz-1",
                 "PhysicalLocation": "Charlotte",
-                "ElectricityMapsName": "US-NC"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "us-east-1-wl1-dfw-wlz-1",
                 "DisplayName": "us-east-1-wl1-dfw-wlz-1",
                 "PhysicalLocation": "Dallas",
-                "ElectricityMapsName": "US-TX"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "us-east-1-wl1-dtw-wlz-1",
                 "DisplayName": "us-east-1-wl1-dtw-wlz-1",
                 "PhysicalLocation": "Detroit",
-                "ElectricityMapsName": "US-MI"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "us-east-1-wl1-iah-wlz-1",
                 "DisplayName": "us-east-1-wl1-iah-wlz-1",
                 "PhysicalLocation": "Houston",
-                "ElectricityMapsName": "US-TX"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "us-east-1-wl1-mia-wlz-1",
                 "DisplayName": "us-east-1-wl1-mia-wlz-1",
                 "PhysicalLocation": "Miami",
-                "ElectricityMapsName": "US-FL"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "us-east-1-wl1-msp-wlz-1",
                 "DisplayName": "us-east-1-wl1-msp-wlz-1",
                 "PhysicalLocation": "Minneapolis",
-                "ElectricityMapsName": "US-MN"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "us-east-1-wl1-nyc-wlz-1",
                 "DisplayName": "us-east-1-wl1-nyc-wlz-1",
                 "PhysicalLocation": "New York",
-                "ElectricityMapsName": "US-NJ"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "us-east-1-wl1-tpa-wlz-1",
                 "DisplayName": "us-east-1-wl1-tpa-wlz-1",
                 "PhysicalLocation": "Tampa",
-                "ElectricityMapsName": "US-FL"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "us-east-1-wl1-was-wlz-1",
                 "DisplayName": "us-east-1-wl1-was-wlz-1",
                 "PhysicalLocation": "Washington DC",
-                "ElectricityMapsName": "US-DC"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "us-east-2-pilot-1",
                 "DisplayName": "us-east-2-pilot-1",
                 "PhysicalLocation": "Columbus",
-                "ElectricityMapsName": "US-OH"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "us-east-2",
                 "DisplayName": "us-east-2",
                 "PhysicalLocation": "Columbus",
-                "ElectricityMapsName": "US-OH"
+                "ElectricityMapsName": "US-PJM"
             },
             {
                 "Name": "us-east-2-mci-1a",
                 "DisplayName": "us-east-2-mci-1a",
                 "PhysicalLocation": "Kansas City",
-                "ElectricityMapsName": "US-MO"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "us-gov-east-1",
                 "DisplayName": "us-gov-east-1",
                 "PhysicalLocation": "Columbus",
-                "ElectricityMapsName": "US-OH"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "us-gov-west-1",
                 "DisplayName": "us-gov-west-1",
                 "PhysicalLocation": "Hermiston",
-                "ElectricityMapsName": "US-OR"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "us-west-1",
                 "DisplayName": "us-west-1",
                 "PhysicalLocation": "San Francisco",
-                "ElectricityMapsName": "US-CA"
+                "ElectricityMapsName": "US-CAL-CISO"
             },
             {
                 "Name": "us-west-2-den-1",
                 "DisplayName": "us-west-2-den-1",
                 "PhysicalLocation": "Denver",
-                "ElectricityMapsName": "US-CO"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "us-west-2-hnl-1",
                 "DisplayName": "us-west-2-hnl-1",
                 "PhysicalLocation": "Honolulu",
-                "ElectricityMapsName": "US-HI"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "us-west-2-las-1b",
                 "DisplayName": "us-west-2-las-1b",
                 "PhysicalLocation": "Seattle",
-                "ElectricityMapsName": "US-WA"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "us-west-2-las-1",
                 "DisplayName": "us-west-2-las-1",
                 "PhysicalLocation": "Las Vegas",
-                "ElectricityMapsName": "US-NV"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "us-west-2-lax-1",
                 "DisplayName": "us-west-2-lax-1",
                 "PhysicalLocation": "Los Angeles",
-                "ElectricityMapsName": "US-CA"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "us-west-2-pdx-1",
                 "DisplayName": "us-west-2-pdx-1",
                 "PhysicalLocation": "Portland",
-                "ElectricityMapsName": "US-OR"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "us-west-2-phx-1",
                 "DisplayName": "us-west-2-phx-1",
                 "PhysicalLocation": "Phoenix",
-                "ElectricityMapsName": "US-AZ"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "us-west-2-phx-2",
                 "DisplayName": "us-west-2-phx-2",
                 "PhysicalLocation": "Phoenix",
-                "ElectricityMapsName": "US-AZ"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "us-west-2-pilot-1",
                 "DisplayName": "us-west-2-pilot-1",
                 "PhysicalLocation": "Seattle",
-                "ElectricityMapsName": "US-WA"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "us-west-2-pilot-2",
                 "DisplayName": "us-west-2-pilot-2",
                 "PhysicalLocation": "Seattle",
-                "ElectricityMapsName": "US-WA"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "us-west-2-pilot-3",
                 "DisplayName": "us-west-2-pilot-3",
                 "PhysicalLocation": "Seattle",
-                "ElectricityMapsName": "US-WA"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "us-west-2-sea-1",
                 "DisplayName": "us-west-2-sea-1",
                 "PhysicalLocation": "Seattle",
-                "ElectricityMapsName": "US-WA"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "us-west-2",
                 "DisplayName": "us-west-2",
                 "PhysicalLocation": "Hermiston",
-                "ElectricityMapsName": "US-NW-PACW"
+                "ElectricityMapsName": "US-PAC-NW"
             },
             {
                 "Name": "us-west-2-wl1-den-wlz-1",
                 "DisplayName": "us-west-2-wl1-den-wlz-1",
                 "PhysicalLocation": "Denver",
-                "ElectricityMapsName": "US-CO"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "us-west-2-wl1-las-wlz-1",
                 "DisplayName": "us-west-2-wl1-las-wlz-1",
                 "PhysicalLocation": "Las Vegas",
-                "ElectricityMapsName": "US-NV"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "us-west-2-wl1-lax-wlz-1",
                 "DisplayName": "us-west-2-wl1-lax-wlz-1",
                 "PhysicalLocation": "Los Angeles",
-                "ElectricityMapsName": "US-CA"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "us-west-2-wl1-phx-wlz-1",
                 "DisplayName": "us-west-2-wl1-phx-wlz-1",
                 "PhysicalLocation": "Phoenix",
-                "ElectricityMapsName": "US-AZ"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "us-west-2-wl1-sea-wlz-1",
                 "DisplayName": "us-west-2-wl1-sea-wlz-1",
                 "PhysicalLocation": "Seattle",
-                "ElectricityMapsName": "US-WA"
+                "ElectricityMapsName": "Unknown"
             },
             {
                 "Name": "us-west-2-wl1-sfo-wlz-1",
                 "DisplayName": "us-west-2-wl1-sfo-wlz-1",
                 "PhysicalLocation": "San Francisco Bay Area",
-                "ElectricityMapsName": "US-CA"
+                "ElectricityMapsName": "Unknown"
             }
         ],
         "latency_matrix": {
@@ -4393,6 +4393,1977 @@
             "eu-west-1",
             "eu-west-2",
             "eu-west-3"
+        ]
+    },
+    "gcp": {
+        "cloud_regions": [
+            {
+                "Name": "africa-south1",
+                "DisplayName": "Africa South1",
+                "RegionalDisplayName": "(Google Cloud) Africa South1",
+                "PhysicalLocation": "Johannesburg",
+                "ElectricityMapsName": "ZA"
+            },
+            {
+                "Name": "asia-east1",
+                "DisplayName": "Asia East1",
+                "RegionalDisplayName": "(Google Cloud) Asia East1",
+                "PhysicalLocation": "Taiwan",
+                "ElectricityMapsName": "TW"
+            },
+            {
+                "Name": "asia-east2",
+                "DisplayName": "Asia East2",
+                "RegionalDisplayName": "(Google Cloud) Asia East2",
+                "PhysicalLocation": "Hong Kong",
+                "ElectricityMapsName": "HK"
+            },
+            {
+                "Name": "asia-northeast1",
+                "DisplayName": "Asia Northeast1",
+                "RegionalDisplayName": "(Google Cloud) Asia Northeast1",
+                "PhysicalLocation": "Tokyo",
+                "ElectricityMapsName": "JP-TK"
+            },
+            {
+                "Name": "asia-northeast2",
+                "DisplayName": "Asia Northeast2",
+                "RegionalDisplayName": "(Google Cloud) Asia Northeast2",
+                "PhysicalLocation": "Osaka",
+                "ElectricityMapsName": "JP-OS"
+            },
+            {
+                "Name": "asia-northeast3",
+                "DisplayName": "Asia Northeast3",
+                "RegionalDisplayName": "(Google Cloud) Asia Northeast3",
+                "PhysicalLocation": "Seoul",
+                "ElectricityMapsName": "KR"
+            },
+            {
+                "Name": "asia-south1",
+                "DisplayName": "Asia South1",
+                "RegionalDisplayName": "(Google Cloud) Asia South1",
+                "PhysicalLocation": "Mumbai",
+                "ElectricityMapsName": "IN"
+            },
+            {
+                "Name": "asia-south2",
+                "DisplayName": "Asia South2",
+                "RegionalDisplayName": "(Google Cloud) Asia South2",
+                "PhysicalLocation": "Delhi",
+                "ElectricityMapsName": "IN"
+            },
+            {
+                "Name": "asia-southeast1",
+                "DisplayName": "Asia Southeast1",
+                "RegionalDisplayName": "(Google Cloud) Asia Southeast1",
+                "PhysicalLocation": "Singapore",
+                "ElectricityMapsName": "SG"
+            },
+            {
+                "Name": "asia-southeast2",
+                "DisplayName": "Asia Southeast2",
+                "RegionalDisplayName": "(Google Cloud) Asia Southeast2",
+                "PhysicalLocation": "Jakarta",
+                "ElectricityMapsName": "ID-JW"
+            },
+            {
+                "Name": "australia-southeast1",
+                "DisplayName": "Australia Southeast1",
+                "RegionalDisplayName": "(Google Cloud) Australia Southeast1",
+                "PhysicalLocation": "Sydney",
+                "ElectricityMapsName": "AU-NSW"
+            },
+            {
+                "Name": "australia-southeast2",
+                "DisplayName": "Australia Southeast2",
+                "RegionalDisplayName": "(Google Cloud) Australia Southeast2",
+                "PhysicalLocation": "Melbourne",
+                "ElectricityMapsName": "AU-VIC"
+            },
+            {
+                "Name": "europe-central2",
+                "DisplayName": "Europe Central2",
+                "RegionalDisplayName": "(Google Cloud) Europe Central2",
+                "PhysicalLocation": "Warsaw",
+                "ElectricityMapsName": "Unknown"
+            },
+            {
+                "Name": "europe-north1",
+                "DisplayName": "Europe North1",
+                "RegionalDisplayName": "(Google Cloud) Europe North1",
+                "PhysicalLocation": "Finland",
+                "ElectricityMapsName": "FI"
+            },
+            {
+                "Name": "europe-southwest1",
+                "DisplayName": "Europe Southwest1",
+                "RegionalDisplayName": "(Google Cloud) Europe Southwest1",
+                "PhysicalLocation": "Madrid",
+                "ElectricityMapsName": "Unknown"
+            },
+            {
+                "Name": "europe-west1",
+                "DisplayName": "Europe West1",
+                "RegionalDisplayName": "(Google Cloud) Europe West1",
+                "PhysicalLocation": "Belgium",
+                "ElectricityMapsName": "BE"
+            },
+            {
+                "Name": "europe-west2",
+                "DisplayName": "Europe West2",
+                "RegionalDisplayName": "(Google Cloud) Europe West2",
+                "PhysicalLocation": "London",
+                "ElectricityMapsName": "GB"
+            },
+            {
+                "Name": "europe-west3",
+                "DisplayName": "Europe West3",
+                "RegionalDisplayName": "(Google Cloud) Europe West3",
+                "PhysicalLocation": "Frankfurt",
+                "ElectricityMapsName": "DE"
+            },
+            {
+                "Name": "europe-west4",
+                "DisplayName": "Europe West4",
+                "RegionalDisplayName": "(Google Cloud) Europe West4",
+                "PhysicalLocation": "Netherlands",
+                "ElectricityMapsName": "NL"
+            },
+            {
+                "Name": "europe-west6",
+                "DisplayName": "Europe West6",
+                "RegionalDisplayName": "(Google Cloud) Europe West6",
+                "PhysicalLocation": "Zurich",
+                "ElectricityMapsName": "CH"
+            },
+            {
+                "Name": "europe-west8",
+                "DisplayName": "Europe West8",
+                "RegionalDisplayName": "(Google Cloud) Europe West8",
+                "PhysicalLocation": "Milan",
+                "ElectricityMapsName": "Unknown"
+            },
+            {
+                "Name": "europe-west9",
+                "DisplayName": "Europe West9",
+                "RegionalDisplayName": "(Google Cloud) Europe West9",
+                "PhysicalLocation": "Paris",
+                "ElectricityMapsName": "Unknown"
+            },
+            {
+                "Name": "europe-west10",
+                "DisplayName": "Europe West10",
+                "RegionalDisplayName": "(Google Cloud) Europe West10",
+                "PhysicalLocation": "Berlin",
+                "ElectricityMapsName": "Unknown"
+            },
+            {
+                "Name": "europe-west12",
+                "DisplayName": "Europe West12",
+                "RegionalDisplayName": "(Google Cloud) Europe West12",
+                "PhysicalLocation": "Turin",
+                "ElectricityMapsName": "Unknown"
+            },
+            {
+                "Name": "me-central1",
+                "DisplayName": "Me Central1",
+                "RegionalDisplayName": "(Google Cloud) Me Central1",
+                "PhysicalLocation": "Doha",
+                "ElectricityMapsName": "Unknown"
+            },
+            {
+                "Name": "me-central2",
+                "DisplayName": "Me Central2",
+                "RegionalDisplayName": "(Google Cloud) Me Central2",
+                "PhysicalLocation": "Dammam",
+                "ElectricityMapsName": "Unknown"
+            },
+            {
+                "Name": "me-west1",
+                "DisplayName": "Me West1",
+                "RegionalDisplayName": "(Google Cloud) Me West1",
+                "PhysicalLocation": "Tel Aviv",
+                "ElectricityMapsName": "Unknown"
+            },
+            {
+                "Name": "northamerica-northeast1",
+                "DisplayName": "Northamerica Northeast1",
+                "RegionalDisplayName": "(Google Cloud) Northamerica Northeast1",
+                "PhysicalLocation": "Montr\u00e9al",
+                "ElectricityMapsName": "CA-QC"
+            },
+            {
+                "Name": "northamerica-northeast2",
+                "DisplayName": "Northamerica Northeast2",
+                "RegionalDisplayName": "(Google Cloud) Northamerica Northeast2",
+                "PhysicalLocation": "Toronto",
+                "ElectricityMapsName": "Unknown"
+            },
+            {
+                "Name": "southamerica-east1",
+                "DisplayName": "Southamerica East1",
+                "RegionalDisplayName": "(Google Cloud) Southamerica East1",
+                "PhysicalLocation": "S\u0101o Paulo",
+                "ElectricityMapsName": "BR"
+            },
+            {
+                "Name": "southamerica-west1",
+                "DisplayName": "Southamerica West1",
+                "RegionalDisplayName": "(Google Cloud) Southamerica West1",
+                "PhysicalLocation": "Santiago",
+                "ElectricityMapsName": "Unknown"
+            },
+            {
+                "Name": "us-central1",
+                "DisplayName": "Us Central1",
+                "RegionalDisplayName": "(Google Cloud) Us Central1",
+                "PhysicalLocation": "Iowa",
+                "ElectricityMapsName": "US-MIDW-MISO"
+            },
+            {
+                "Name": "us-east1",
+                "DisplayName": "Us East1",
+                "RegionalDisplayName": "(Google Cloud) Us East1",
+                "PhysicalLocation": "South Carolina",
+                "ElectricityMapsName": "US-NE-ISO-NE"
+            },
+            {
+                "Name": "us-east5",
+                "DisplayName": "Us East5",
+                "RegionalDisplayName": "(Google Cloud) Us East5",
+                "PhysicalLocation": "Columbus",
+                "ElectricityMapsName": "Unknown"
+            },
+            {
+                "Name": "us-east4",
+                "DisplayName": "Us East4",
+                "RegionalDisplayName": "(Google Cloud) Us East4",
+                "PhysicalLocation": "Northern Virginia",
+                "ElectricityMapsName": "US-NY-NYISO"
+            },
+            {
+                "Name": "us-south1",
+                "DisplayName": "Us South1",
+                "RegionalDisplayName": "(Google Cloud) Us South1",
+                "PhysicalLocation": "Dallas",
+                "ElectricityMapsName": "Unknown"
+            },
+            {
+                "Name": "us-west1",
+                "DisplayName": "Us West1",
+                "RegionalDisplayName": "(Google Cloud) Us West1",
+                "PhysicalLocation": "Oregon",
+                "ElectricityMapsName": "US-CAL-CISO"
+            },
+            {
+                "Name": "us-west2",
+                "DisplayName": "Us West2",
+                "RegionalDisplayName": "(Google Cloud) Us West2",
+                "PhysicalLocation": "Los Angeles",
+                "ElectricityMapsName": "US-CAL-CISO"
+            },
+            {
+                "Name": "us-west3",
+                "DisplayName": "Us West3",
+                "RegionalDisplayName": "(Google Cloud) Us West3",
+                "PhysicalLocation": "Salt Lake City",
+                "ElectricityMapsName": "US-AZ"
+            },
+            {
+                "Name": "us-west4",
+                "DisplayName": "Us West4",
+                "RegionalDisplayName": "(Google Cloud) Us West4",
+                "PhysicalLocation": "Las Vegas",
+                "ElectricityMapsName": "US-NV"
+            }
+        ],
+        "latency_matrix": {
+            "africa-south1": {
+                "africa-south1": 0,
+                "asia-east1": 172,
+                "asia-east2": 163,
+                "asia-northeast1": 67,
+                "asia-northeast2": 268,
+                "asia-northeast3": 255,
+                "asia-south1": 112,
+                "asia-south2": 273,
+                "asia-southeast1": 205,
+                "asia-southeast2": 7,
+                "australia-southeast1": 202,
+                "australia-southeast2": 290,
+                "europe-central2": 283,
+                "europe-north1": 145,
+                "europe-southwest1": 281,
+                "europe-west1": 19,
+                "europe-west2": 126,
+                "europe-west3": 227,
+                "europe-west4": 121,
+                "europe-west6": 47,
+                "europe-west8": 92,
+                "europe-west9": 177,
+                "europe-west10": 98,
+                "europe-west12": 74,
+                "me-central1": 207,
+                "me-central2": 153,
+                "me-west1": 147,
+                "northamerica-northeast1": 178,
+                "northamerica-northeast2": 273,
+                "southamerica-east1": 68,
+                "southamerica-west1": 181,
+                "us-central1": 11,
+                "us-east1": 139,
+                "us-east5": 154,
+                "us-east4": 91,
+                "us-south1": 17,
+                "us-west1": 197,
+                "us-west2": 7,
+                "us-west3": 31,
+                "us-west4": 85
+            },
+            "asia-east1": {
+                "africa-south1": 98,
+                "asia-east1": 0,
+                "asia-east2": 245,
+                "asia-northeast1": 26,
+                "asia-northeast2": 27,
+                "asia-northeast3": 285,
+                "asia-south1": 170,
+                "asia-south2": 280,
+                "asia-southeast1": 179,
+                "asia-southeast2": 208,
+                "australia-southeast1": 266,
+                "australia-southeast2": 190,
+                "europe-central2": 118,
+                "europe-north1": 136,
+                "europe-southwest1": 218,
+                "europe-west1": 245,
+                "europe-west2": 87,
+                "europe-west3": 178,
+                "europe-west4": 259,
+                "europe-west6": 144,
+                "europe-west8": 276,
+                "europe-west9": 142,
+                "europe-west10": 175,
+                "europe-west12": 80,
+                "me-central1": 186,
+                "me-central2": 210,
+                "me-west1": 27,
+                "northamerica-northeast1": 131,
+                "northamerica-northeast2": 38,
+                "southamerica-east1": 233,
+                "southamerica-west1": 57,
+                "us-central1": 48,
+                "us-east1": 142,
+                "us-east5": 11,
+                "us-east4": 287,
+                "us-south1": 51,
+                "us-west1": 174,
+                "us-west2": 45,
+                "us-west3": 119,
+                "us-west4": 75
+            },
+            "asia-east2": {
+                "africa-south1": 152,
+                "asia-east1": 223,
+                "asia-east2": 0,
+                "asia-northeast1": 88,
+                "asia-northeast2": 244,
+                "asia-northeast3": 45,
+                "asia-south1": 218,
+                "asia-south2": 71,
+                "asia-southeast1": 269,
+                "asia-southeast2": 75,
+                "australia-southeast1": 256,
+                "australia-southeast2": 191,
+                "europe-central2": 295,
+                "europe-north1": 26,
+                "europe-southwest1": 135,
+                "europe-west1": 194,
+                "europe-west2": 212,
+                "europe-west3": 237,
+                "europe-west4": 73,
+                "europe-west6": 142,
+                "europe-west8": 120,
+                "europe-west9": 278,
+                "europe-west10": 252,
+                "europe-west12": 162,
+                "me-central1": 223,
+                "me-central2": 297,
+                "me-west1": 169,
+                "northamerica-northeast1": 237,
+                "northamerica-northeast2": 71,
+                "southamerica-east1": 45,
+                "southamerica-west1": 286,
+                "us-central1": 297,
+                "us-east1": 226,
+                "us-east5": 116,
+                "us-east4": 155,
+                "us-south1": 291,
+                "us-west1": 220,
+                "us-west2": 44,
+                "us-west3": 257,
+                "us-west4": 116
+            },
+            "asia-northeast1": {
+                "africa-south1": 54,
+                "asia-east1": 207,
+                "asia-east2": 25,
+                "asia-northeast1": 0,
+                "asia-northeast2": 268,
+                "asia-northeast3": 181,
+                "asia-south1": 266,
+                "asia-south2": 187,
+                "asia-southeast1": 29,
+                "asia-southeast2": 43,
+                "australia-southeast1": 75,
+                "australia-southeast2": 88,
+                "europe-central2": 19,
+                "europe-north1": 64,
+                "europe-southwest1": 287,
+                "europe-west1": 54,
+                "europe-west2": 215,
+                "europe-west3": 181,
+                "europe-west4": 169,
+                "europe-west6": 82,
+                "europe-west8": 110,
+                "europe-west9": 91,
+                "europe-west10": 40,
+                "europe-west12": 231,
+                "me-central1": 287,
+                "me-central2": 150,
+                "me-west1": 261,
+                "northamerica-northeast1": 287,
+                "northamerica-northeast2": 189,
+                "southamerica-east1": 208,
+                "southamerica-west1": 270,
+                "us-central1": 71,
+                "us-east1": 265,
+                "us-east5": 82,
+                "us-east4": 143,
+                "us-south1": 73,
+                "us-west1": 266,
+                "us-west2": 244,
+                "us-west3": 236,
+                "us-west4": 78
+            },
+            "asia-northeast2": {
+                "africa-south1": 87,
+                "asia-east1": 292,
+                "asia-east2": 132,
+                "asia-northeast1": 53,
+                "asia-northeast2": 0,
+                "asia-northeast3": 136,
+                "asia-south1": 272,
+                "asia-south2": 239,
+                "asia-southeast1": 46,
+                "asia-southeast2": 251,
+                "australia-southeast1": 185,
+                "australia-southeast2": 252,
+                "europe-central2": 297,
+                "europe-north1": 106,
+                "europe-southwest1": 279,
+                "europe-west1": 258,
+                "europe-west2": 24,
+                "europe-west3": 150,
+                "europe-west4": 227,
+                "europe-west6": 188,
+                "europe-west8": 68,
+                "europe-west9": 241,
+                "europe-west10": 187,
+                "europe-west12": 81,
+                "me-central1": 63,
+                "me-central2": 241,
+                "me-west1": 46,
+                "northamerica-northeast1": 205,
+                "northamerica-northeast2": 35,
+                "southamerica-east1": 24,
+                "southamerica-west1": 263,
+                "us-central1": 100,
+                "us-east1": 112,
+                "us-east5": 191,
+                "us-east4": 158,
+                "us-south1": 11,
+                "us-west1": 173,
+                "us-west2": 114,
+                "us-west3": 267,
+                "us-west4": 48
+            },
+            "asia-northeast3": {
+                "africa-south1": 28,
+                "asia-east1": 133,
+                "asia-east2": 146,
+                "asia-northeast1": 229,
+                "asia-northeast2": 60,
+                "asia-northeast3": 0,
+                "asia-south1": 93,
+                "asia-south2": 15,
+                "asia-southeast1": 198,
+                "asia-southeast2": 76,
+                "australia-southeast1": 76,
+                "australia-southeast2": 289,
+                "europe-central2": 230,
+                "europe-north1": 236,
+                "europe-southwest1": 8,
+                "europe-west1": 275,
+                "europe-west2": 10,
+                "europe-west3": 49,
+                "europe-west4": 48,
+                "europe-west6": 22,
+                "europe-west8": 231,
+                "europe-west9": 70,
+                "europe-west10": 132,
+                "europe-west12": 270,
+                "me-central1": 91,
+                "me-central2": 142,
+                "me-west1": 207,
+                "northamerica-northeast1": 298,
+                "northamerica-northeast2": 38,
+                "southamerica-east1": 170,
+                "southamerica-west1": 164,
+                "us-central1": 283,
+                "us-east1": 78,
+                "us-east5": 214,
+                "us-east4": 300,
+                "us-south1": 161,
+                "us-west1": 229,
+                "us-west2": 24,
+                "us-west3": 276,
+                "us-west4": 22
+            },
+            "asia-south1": {
+                "africa-south1": 267,
+                "asia-east1": 28,
+                "asia-east2": 221,
+                "asia-northeast1": 27,
+                "asia-northeast2": 208,
+                "asia-northeast3": 166,
+                "asia-south1": 0,
+                "asia-south2": 297,
+                "asia-southeast1": 156,
+                "asia-southeast2": 46,
+                "australia-southeast1": 291,
+                "australia-southeast2": 55,
+                "europe-central2": 187,
+                "europe-north1": 49,
+                "europe-southwest1": 83,
+                "europe-west1": 82,
+                "europe-west2": 172,
+                "europe-west3": 265,
+                "europe-west4": 280,
+                "europe-west6": 268,
+                "europe-west8": 253,
+                "europe-west9": 26,
+                "europe-west10": 16,
+                "europe-west12": 275,
+                "me-central1": 196,
+                "me-central2": 219,
+                "me-west1": 281,
+                "northamerica-northeast1": 135,
+                "northamerica-northeast2": 125,
+                "southamerica-east1": 266,
+                "southamerica-west1": 265,
+                "us-central1": 266,
+                "us-east1": 128,
+                "us-east5": 177,
+                "us-east4": 266,
+                "us-south1": 162,
+                "us-west1": 77,
+                "us-west2": 89,
+                "us-west3": 68,
+                "us-west4": 226
+            },
+            "asia-south2": {
+                "africa-south1": 111,
+                "asia-east1": 23,
+                "asia-east2": 62,
+                "asia-northeast1": 149,
+                "asia-northeast2": 205,
+                "asia-northeast3": 50,
+                "asia-south1": 267,
+                "asia-south2": 0,
+                "asia-southeast1": 93,
+                "asia-southeast2": 174,
+                "australia-southeast1": 225,
+                "australia-southeast2": 57,
+                "europe-central2": 77,
+                "europe-north1": 133,
+                "europe-southwest1": 102,
+                "europe-west1": 262,
+                "europe-west2": 50,
+                "europe-west3": 70,
+                "europe-west4": 59,
+                "europe-west6": 23,
+                "europe-west8": 110,
+                "europe-west9": 104,
+                "europe-west10": 100,
+                "europe-west12": 276,
+                "me-central1": 224,
+                "me-central2": 145,
+                "me-west1": 111,
+                "northamerica-northeast1": 200,
+                "northamerica-northeast2": 64,
+                "southamerica-east1": 224,
+                "southamerica-west1": 272,
+                "us-central1": 292,
+                "us-east1": 238,
+                "us-east5": 294,
+                "us-east4": 34,
+                "us-south1": 202,
+                "us-west1": 292,
+                "us-west2": 31,
+                "us-west3": 162,
+                "us-west4": 240
+            },
+            "asia-southeast1": {
+                "africa-south1": 173,
+                "asia-east1": 241,
+                "asia-east2": 150,
+                "asia-northeast1": 273,
+                "asia-northeast2": 275,
+                "asia-northeast3": 127,
+                "asia-south1": 87,
+                "asia-south2": 116,
+                "asia-southeast1": 0,
+                "asia-southeast2": 272,
+                "australia-southeast1": 30,
+                "australia-southeast2": 16,
+                "europe-central2": 284,
+                "europe-north1": 15,
+                "europe-southwest1": 297,
+                "europe-west1": 43,
+                "europe-west2": 14,
+                "europe-west3": 261,
+                "europe-west4": 52,
+                "europe-west6": 194,
+                "europe-west8": 129,
+                "europe-west9": 268,
+                "europe-west10": 43,
+                "europe-west12": 187,
+                "me-central1": 265,
+                "me-central2": 196,
+                "me-west1": 6,
+                "northamerica-northeast1": 165,
+                "northamerica-northeast2": 286,
+                "southamerica-east1": 275,
+                "southamerica-west1": 130,
+                "us-central1": 49,
+                "us-east1": 161,
+                "us-east5": 104,
+                "us-east4": 209,
+                "us-south1": 130,
+                "us-west1": 118,
+                "us-west2": 194,
+                "us-west3": 99,
+                "us-west4": 29
+            },
+            "asia-southeast2": {
+                "africa-south1": 112,
+                "asia-east1": 289,
+                "asia-east2": 227,
+                "asia-northeast1": 84,
+                "asia-northeast2": 194,
+                "asia-northeast3": 264,
+                "asia-south1": 147,
+                "asia-south2": 237,
+                "asia-southeast1": 71,
+                "asia-southeast2": 0,
+                "australia-southeast1": 147,
+                "australia-southeast2": 266,
+                "europe-central2": 31,
+                "europe-north1": 80,
+                "europe-southwest1": 290,
+                "europe-west1": 194,
+                "europe-west2": 189,
+                "europe-west3": 68,
+                "europe-west4": 93,
+                "europe-west6": 197,
+                "europe-west8": 188,
+                "europe-west9": 95,
+                "europe-west10": 202,
+                "europe-west12": 19,
+                "me-central1": 156,
+                "me-central2": 79,
+                "me-west1": 257,
+                "northamerica-northeast1": 201,
+                "northamerica-northeast2": 173,
+                "southamerica-east1": 94,
+                "southamerica-west1": 116,
+                "us-central1": 165,
+                "us-east1": 39,
+                "us-east5": 46,
+                "us-east4": 145,
+                "us-south1": 206,
+                "us-west1": 275,
+                "us-west2": 162,
+                "us-west3": 80,
+                "us-west4": 174
+            },
+            "australia-southeast1": {
+                "africa-south1": 279,
+                "asia-east1": 162,
+                "asia-east2": 273,
+                "asia-northeast1": 163,
+                "asia-northeast2": 105,
+                "asia-northeast3": 178,
+                "asia-south1": 19,
+                "asia-south2": 76,
+                "asia-southeast1": 264,
+                "asia-southeast2": 192,
+                "australia-southeast1": 0,
+                "australia-southeast2": 96,
+                "europe-central2": 38,
+                "europe-north1": 21,
+                "europe-southwest1": 71,
+                "europe-west1": 274,
+                "europe-west2": 71,
+                "europe-west3": 290,
+                "europe-west4": 277,
+                "europe-west6": 170,
+                "europe-west8": 135,
+                "europe-west9": 93,
+                "europe-west10": 92,
+                "europe-west12": 299,
+                "me-central1": 172,
+                "me-central2": 233,
+                "me-west1": 71,
+                "northamerica-northeast1": 283,
+                "northamerica-northeast2": 202,
+                "southamerica-east1": 74,
+                "southamerica-west1": 20,
+                "us-central1": 286,
+                "us-east1": 102,
+                "us-east5": 178,
+                "us-east4": 166,
+                "us-south1": 51,
+                "us-west1": 245,
+                "us-west2": 17,
+                "us-west3": 84,
+                "us-west4": 258
+            },
+            "australia-southeast2": {
+                "africa-south1": 206,
+                "asia-east1": 188,
+                "asia-east2": 215,
+                "asia-northeast1": 231,
+                "asia-northeast2": 14,
+                "asia-northeast3": 212,
+                "asia-south1": 151,
+                "asia-south2": 274,
+                "asia-southeast1": 171,
+                "asia-southeast2": 136,
+                "australia-southeast1": 298,
+                "australia-southeast2": 0,
+                "europe-central2": 69,
+                "europe-north1": 152,
+                "europe-southwest1": 194,
+                "europe-west1": 223,
+                "europe-west2": 60,
+                "europe-west3": 226,
+                "europe-west4": 189,
+                "europe-west6": 66,
+                "europe-west8": 173,
+                "europe-west9": 249,
+                "europe-west10": 110,
+                "europe-west12": 99,
+                "me-central1": 257,
+                "me-central2": 286,
+                "me-west1": 12,
+                "northamerica-northeast1": 32,
+                "northamerica-northeast2": 87,
+                "southamerica-east1": 183,
+                "southamerica-west1": 300,
+                "us-central1": 61,
+                "us-east1": 117,
+                "us-east5": 178,
+                "us-east4": 114,
+                "us-south1": 227,
+                "us-west1": 223,
+                "us-west2": 46,
+                "us-west3": 166,
+                "us-west4": 223
+            },
+            "europe-central2": {
+                "africa-south1": 186,
+                "asia-east1": 68,
+                "asia-east2": 90,
+                "asia-northeast1": 70,
+                "asia-northeast2": 23,
+                "asia-northeast3": 123,
+                "asia-south1": 296,
+                "asia-south2": 124,
+                "asia-southeast1": 170,
+                "asia-southeast2": 209,
+                "australia-southeast1": 116,
+                "australia-southeast2": 38,
+                "europe-central2": 0,
+                "europe-north1": 25,
+                "europe-southwest1": 278,
+                "europe-west1": 254,
+                "europe-west2": 242,
+                "europe-west3": 165,
+                "europe-west4": 78,
+                "europe-west6": 8,
+                "europe-west8": 79,
+                "europe-west9": 108,
+                "europe-west10": 258,
+                "europe-west12": 91,
+                "me-central1": 224,
+                "me-central2": 83,
+                "me-west1": 38,
+                "northamerica-northeast1": 139,
+                "northamerica-northeast2": 161,
+                "southamerica-east1": 241,
+                "southamerica-west1": 88,
+                "us-central1": 34,
+                "us-east1": 98,
+                "us-east5": 186,
+                "us-east4": 155,
+                "us-south1": 192,
+                "us-west1": 156,
+                "us-west2": 15,
+                "us-west3": 248,
+                "us-west4": 296
+            },
+            "europe-north1": {
+                "africa-south1": 103,
+                "asia-east1": 123,
+                "asia-east2": 98,
+                "asia-northeast1": 276,
+                "asia-northeast2": 128,
+                "asia-northeast3": 119,
+                "asia-south1": 208,
+                "asia-south2": 68,
+                "asia-southeast1": 108,
+                "asia-southeast2": 18,
+                "australia-southeast1": 121,
+                "australia-southeast2": 32,
+                "europe-central2": 240,
+                "europe-north1": 0,
+                "europe-southwest1": 152,
+                "europe-west1": 209,
+                "europe-west2": 170,
+                "europe-west3": 183,
+                "europe-west4": 87,
+                "europe-west6": 124,
+                "europe-west8": 113,
+                "europe-west9": 13,
+                "europe-west10": 139,
+                "europe-west12": 102,
+                "me-central1": 226,
+                "me-central2": 231,
+                "me-west1": 91,
+                "northamerica-northeast1": 226,
+                "northamerica-northeast2": 169,
+                "southamerica-east1": 75,
+                "southamerica-west1": 73,
+                "us-central1": 168,
+                "us-east1": 15,
+                "us-east5": 79,
+                "us-east4": 64,
+                "us-south1": 76,
+                "us-west1": 274,
+                "us-west2": 261,
+                "us-west3": 94,
+                "us-west4": 237
+            },
+            "europe-southwest1": {
+                "africa-south1": 123,
+                "asia-east1": 271,
+                "asia-east2": 78,
+                "asia-northeast1": 250,
+                "asia-northeast2": 229,
+                "asia-northeast3": 36,
+                "asia-south1": 220,
+                "asia-south2": 98,
+                "asia-southeast1": 87,
+                "asia-southeast2": 81,
+                "australia-southeast1": 246,
+                "australia-southeast2": 182,
+                "europe-central2": 204,
+                "europe-north1": 215,
+                "europe-southwest1": 0,
+                "europe-west1": 237,
+                "europe-west2": 260,
+                "europe-west3": 63,
+                "europe-west4": 50,
+                "europe-west6": 271,
+                "europe-west8": 97,
+                "europe-west9": 180,
+                "europe-west10": 296,
+                "europe-west12": 267,
+                "me-central1": 165,
+                "me-central2": 140,
+                "me-west1": 268,
+                "northamerica-northeast1": 49,
+                "northamerica-northeast2": 222,
+                "southamerica-east1": 242,
+                "southamerica-west1": 106,
+                "us-central1": 127,
+                "us-east1": 164,
+                "us-east5": 210,
+                "us-east4": 272,
+                "us-south1": 226,
+                "us-west1": 167,
+                "us-west2": 125,
+                "us-west3": 204,
+                "us-west4": 201
+            },
+            "europe-west1": {
+                "africa-south1": 118,
+                "asia-east1": 133,
+                "asia-east2": 14,
+                "asia-northeast1": 194,
+                "asia-northeast2": 239,
+                "asia-northeast3": 27,
+                "asia-south1": 209,
+                "asia-south2": 221,
+                "asia-southeast1": 41,
+                "asia-southeast2": 168,
+                "australia-southeast1": 229,
+                "australia-southeast2": 8,
+                "europe-central2": 128,
+                "europe-north1": 257,
+                "europe-southwest1": 185,
+                "europe-west1": 0,
+                "europe-west2": 190,
+                "europe-west3": 206,
+                "europe-west4": 192,
+                "europe-west6": 260,
+                "europe-west8": 108,
+                "europe-west9": 84,
+                "europe-west10": 80,
+                "europe-west12": 200,
+                "me-central1": 231,
+                "me-central2": 40,
+                "me-west1": 136,
+                "northamerica-northeast1": 239,
+                "northamerica-northeast2": 182,
+                "southamerica-east1": 300,
+                "southamerica-west1": 211,
+                "us-central1": 155,
+                "us-east1": 278,
+                "us-east5": 129,
+                "us-east4": 86,
+                "us-south1": 189,
+                "us-west1": 286,
+                "us-west2": 298,
+                "us-west3": 138,
+                "us-west4": 188
+            },
+            "europe-west2": {
+                "africa-south1": 90,
+                "asia-east1": 182,
+                "asia-east2": 233,
+                "asia-northeast1": 212,
+                "asia-northeast2": 9,
+                "asia-northeast3": 78,
+                "asia-south1": 45,
+                "asia-south2": 187,
+                "asia-southeast1": 145,
+                "asia-southeast2": 106,
+                "australia-southeast1": 67,
+                "australia-southeast2": 113,
+                "europe-central2": 130,
+                "europe-north1": 185,
+                "europe-southwest1": 147,
+                "europe-west1": 267,
+                "europe-west2": 0,
+                "europe-west3": 63,
+                "europe-west4": 283,
+                "europe-west6": 93,
+                "europe-west8": 277,
+                "europe-west9": 77,
+                "europe-west10": 255,
+                "europe-west12": 273,
+                "me-central1": 101,
+                "me-central2": 108,
+                "me-west1": 21,
+                "northamerica-northeast1": 77,
+                "northamerica-northeast2": 284,
+                "southamerica-east1": 45,
+                "southamerica-west1": 201,
+                "us-central1": 98,
+                "us-east1": 200,
+                "us-east5": 251,
+                "us-east4": 16,
+                "us-south1": 222,
+                "us-west1": 182,
+                "us-west2": 66,
+                "us-west3": 244,
+                "us-west4": 8
+            },
+            "europe-west3": {
+                "africa-south1": 102,
+                "asia-east1": 191,
+                "asia-east2": 145,
+                "asia-northeast1": 193,
+                "asia-northeast2": 90,
+                "asia-northeast3": 188,
+                "asia-south1": 128,
+                "asia-south2": 16,
+                "asia-southeast1": 86,
+                "asia-southeast2": 217,
+                "australia-southeast1": 43,
+                "australia-southeast2": 247,
+                "europe-central2": 234,
+                "europe-north1": 279,
+                "europe-southwest1": 207,
+                "europe-west1": 87,
+                "europe-west2": 147,
+                "europe-west3": 0,
+                "europe-west4": 204,
+                "europe-west6": 68,
+                "europe-west8": 43,
+                "europe-west9": 90,
+                "europe-west10": 250,
+                "europe-west12": 51,
+                "me-central1": 99,
+                "me-central2": 135,
+                "me-west1": 134,
+                "northamerica-northeast1": 133,
+                "northamerica-northeast2": 216,
+                "southamerica-east1": 297,
+                "southamerica-west1": 20,
+                "us-central1": 24,
+                "us-east1": 225,
+                "us-east5": 65,
+                "us-east4": 198,
+                "us-south1": 212,
+                "us-west1": 25,
+                "us-west2": 177,
+                "us-west3": 154,
+                "us-west4": 94
+            },
+            "europe-west4": {
+                "africa-south1": 204,
+                "asia-east1": 141,
+                "asia-east2": 235,
+                "asia-northeast1": 209,
+                "asia-northeast2": 61,
+                "asia-northeast3": 291,
+                "asia-south1": 195,
+                "asia-south2": 254,
+                "asia-southeast1": 274,
+                "asia-southeast2": 100,
+                "australia-southeast1": 202,
+                "australia-southeast2": 24,
+                "europe-central2": 189,
+                "europe-north1": 250,
+                "europe-southwest1": 281,
+                "europe-west1": 97,
+                "europe-west2": 195,
+                "europe-west3": 263,
+                "europe-west4": 0,
+                "europe-west6": 80,
+                "europe-west8": 217,
+                "europe-west9": 148,
+                "europe-west10": 43,
+                "europe-west12": 76,
+                "me-central1": 181,
+                "me-central2": 70,
+                "me-west1": 101,
+                "northamerica-northeast1": 20,
+                "northamerica-northeast2": 46,
+                "southamerica-east1": 43,
+                "southamerica-west1": 214,
+                "us-central1": 156,
+                "us-east1": 168,
+                "us-east5": 53,
+                "us-east4": 138,
+                "us-south1": 292,
+                "us-west1": 231,
+                "us-west2": 223,
+                "us-west3": 233,
+                "us-west4": 19
+            },
+            "europe-west6": {
+                "africa-south1": 194,
+                "asia-east1": 84,
+                "asia-east2": 223,
+                "asia-northeast1": 203,
+                "asia-northeast2": 76,
+                "asia-northeast3": 170,
+                "asia-south1": 205,
+                "asia-south2": 190,
+                "asia-southeast1": 90,
+                "asia-southeast2": 65,
+                "australia-southeast1": 97,
+                "australia-southeast2": 209,
+                "europe-central2": 71,
+                "europe-north1": 165,
+                "europe-southwest1": 117,
+                "europe-west1": 78,
+                "europe-west2": 276,
+                "europe-west3": 193,
+                "europe-west4": 188,
+                "europe-west6": 0,
+                "europe-west8": 182,
+                "europe-west9": 217,
+                "europe-west10": 42,
+                "europe-west12": 140,
+                "me-central1": 249,
+                "me-central2": 245,
+                "me-west1": 286,
+                "northamerica-northeast1": 134,
+                "northamerica-northeast2": 6,
+                "southamerica-east1": 21,
+                "southamerica-west1": 238,
+                "us-central1": 183,
+                "us-east1": 152,
+                "us-east5": 209,
+                "us-east4": 105,
+                "us-south1": 93,
+                "us-west1": 297,
+                "us-west2": 280,
+                "us-west3": 286,
+                "us-west4": 214
+            },
+            "europe-west8": {
+                "africa-south1": 153,
+                "asia-east1": 12,
+                "asia-east2": 241,
+                "asia-northeast1": 138,
+                "asia-northeast2": 99,
+                "asia-northeast3": 170,
+                "asia-south1": 253,
+                "asia-south2": 299,
+                "asia-southeast1": 12,
+                "asia-southeast2": 284,
+                "australia-southeast1": 228,
+                "australia-southeast2": 241,
+                "europe-central2": 292,
+                "europe-north1": 135,
+                "europe-southwest1": 84,
+                "europe-west1": 49,
+                "europe-west2": 36,
+                "europe-west3": 251,
+                "europe-west4": 290,
+                "europe-west6": 247,
+                "europe-west8": 0,
+                "europe-west9": 130,
+                "europe-west10": 106,
+                "europe-west12": 225,
+                "me-central1": 269,
+                "me-central2": 281,
+                "me-west1": 170,
+                "northamerica-northeast1": 20,
+                "northamerica-northeast2": 93,
+                "southamerica-east1": 48,
+                "southamerica-west1": 298,
+                "us-central1": 279,
+                "us-east1": 198,
+                "us-east5": 152,
+                "us-east4": 128,
+                "us-south1": 243,
+                "us-west1": 247,
+                "us-west2": 253,
+                "us-west3": 272,
+                "us-west4": 173
+            },
+            "europe-west9": {
+                "africa-south1": 246,
+                "asia-east1": 168,
+                "asia-east2": 117,
+                "asia-northeast1": 221,
+                "asia-northeast2": 185,
+                "asia-northeast3": 88,
+                "asia-south1": 234,
+                "asia-south2": 206,
+                "asia-southeast1": 183,
+                "asia-southeast2": 289,
+                "australia-southeast1": 173,
+                "australia-southeast2": 12,
+                "europe-central2": 225,
+                "europe-north1": 163,
+                "europe-southwest1": 189,
+                "europe-west1": 173,
+                "europe-west2": 159,
+                "europe-west3": 235,
+                "europe-west4": 230,
+                "europe-west6": 102,
+                "europe-west8": 93,
+                "europe-west9": 0,
+                "europe-west10": 215,
+                "europe-west12": 269,
+                "me-central1": 26,
+                "me-central2": 11,
+                "me-west1": 127,
+                "northamerica-northeast1": 17,
+                "northamerica-northeast2": 80,
+                "southamerica-east1": 92,
+                "southamerica-west1": 24,
+                "us-central1": 227,
+                "us-east1": 197,
+                "us-east5": 70,
+                "us-east4": 192,
+                "us-south1": 95,
+                "us-west1": 255,
+                "us-west2": 100,
+                "us-west3": 298,
+                "us-west4": 93
+            },
+            "europe-west10": {
+                "africa-south1": 59,
+                "asia-east1": 296,
+                "asia-east2": 46,
+                "asia-northeast1": 292,
+                "asia-northeast2": 250,
+                "asia-northeast3": 212,
+                "asia-south1": 129,
+                "asia-south2": 292,
+                "asia-southeast1": 260,
+                "asia-southeast2": 296,
+                "australia-southeast1": 117,
+                "australia-southeast2": 193,
+                "europe-central2": 209,
+                "europe-north1": 204,
+                "europe-southwest1": 168,
+                "europe-west1": 203,
+                "europe-west2": 98,
+                "europe-west3": 5,
+                "europe-west4": 208,
+                "europe-west6": 188,
+                "europe-west8": 81,
+                "europe-west9": 267,
+                "europe-west10": 0,
+                "europe-west12": 185,
+                "me-central1": 167,
+                "me-central2": 278,
+                "me-west1": 267,
+                "northamerica-northeast1": 224,
+                "northamerica-northeast2": 53,
+                "southamerica-east1": 268,
+                "southamerica-west1": 157,
+                "us-central1": 26,
+                "us-east1": 14,
+                "us-east5": 133,
+                "us-east4": 258,
+                "us-south1": 79,
+                "us-west1": 6,
+                "us-west2": 134,
+                "us-west3": 287,
+                "us-west4": 60
+            },
+            "europe-west12": {
+                "africa-south1": 127,
+                "asia-east1": 9,
+                "asia-east2": 225,
+                "asia-northeast1": 164,
+                "asia-northeast2": 154,
+                "asia-northeast3": 155,
+                "asia-south1": 225,
+                "asia-south2": 7,
+                "asia-southeast1": 269,
+                "asia-southeast2": 157,
+                "australia-southeast1": 195,
+                "australia-southeast2": 300,
+                "europe-central2": 97,
+                "europe-north1": 182,
+                "europe-southwest1": 148,
+                "europe-west1": 208,
+                "europe-west2": 8,
+                "europe-west3": 51,
+                "europe-west4": 138,
+                "europe-west6": 80,
+                "europe-west8": 138,
+                "europe-west9": 108,
+                "europe-west10": 87,
+                "europe-west12": 0,
+                "me-central1": 115,
+                "me-central2": 183,
+                "me-west1": 223,
+                "northamerica-northeast1": 42,
+                "northamerica-northeast2": 229,
+                "southamerica-east1": 284,
+                "southamerica-west1": 103,
+                "us-central1": 55,
+                "us-east1": 130,
+                "us-east5": 104,
+                "us-east4": 211,
+                "us-south1": 77,
+                "us-west1": 222,
+                "us-west2": 294,
+                "us-west3": 19,
+                "us-west4": 178
+            },
+            "me-central1": {
+                "africa-south1": 115,
+                "asia-east1": 16,
+                "asia-east2": 7,
+                "asia-northeast1": 176,
+                "asia-northeast2": 163,
+                "asia-northeast3": 129,
+                "asia-south1": 162,
+                "asia-south2": 179,
+                "asia-southeast1": 110,
+                "asia-southeast2": 208,
+                "australia-southeast1": 41,
+                "australia-southeast2": 96,
+                "europe-central2": 116,
+                "europe-north1": 126,
+                "europe-southwest1": 87,
+                "europe-west1": 298,
+                "europe-west2": 246,
+                "europe-west3": 171,
+                "europe-west4": 226,
+                "europe-west6": 38,
+                "europe-west8": 73,
+                "europe-west9": 295,
+                "europe-west10": 107,
+                "europe-west12": 141,
+                "me-central1": 0,
+                "me-central2": 38,
+                "me-west1": 231,
+                "northamerica-northeast1": 68,
+                "northamerica-northeast2": 64,
+                "southamerica-east1": 90,
+                "southamerica-west1": 10,
+                "us-central1": 108,
+                "us-east1": 170,
+                "us-east5": 204,
+                "us-east4": 167,
+                "us-south1": 229,
+                "us-west1": 259,
+                "us-west2": 198,
+                "us-west3": 198,
+                "us-west4": 263
+            },
+            "me-central2": {
+                "africa-south1": 109,
+                "asia-east1": 102,
+                "asia-east2": 46,
+                "asia-northeast1": 172,
+                "asia-northeast2": 162,
+                "asia-northeast3": 82,
+                "asia-south1": 18,
+                "asia-south2": 54,
+                "asia-southeast1": 46,
+                "asia-southeast2": 82,
+                "australia-southeast1": 162,
+                "australia-southeast2": 266,
+                "europe-central2": 11,
+                "europe-north1": 225,
+                "europe-southwest1": 80,
+                "europe-west1": 47,
+                "europe-west2": 158,
+                "europe-west3": 180,
+                "europe-west4": 195,
+                "europe-west6": 190,
+                "europe-west8": 40,
+                "europe-west9": 98,
+                "europe-west10": 26,
+                "europe-west12": 202,
+                "me-central1": 150,
+                "me-central2": 0,
+                "me-west1": 206,
+                "northamerica-northeast1": 255,
+                "northamerica-northeast2": 103,
+                "southamerica-east1": 104,
+                "southamerica-west1": 139,
+                "us-central1": 122,
+                "us-east1": 292,
+                "us-east5": 168,
+                "us-east4": 28,
+                "us-south1": 198,
+                "us-west1": 286,
+                "us-west2": 55,
+                "us-west3": 234,
+                "us-west4": 97
+            },
+            "me-west1": {
+                "africa-south1": 103,
+                "asia-east1": 208,
+                "asia-east2": 255,
+                "asia-northeast1": 98,
+                "asia-northeast2": 218,
+                "asia-northeast3": 21,
+                "asia-south1": 287,
+                "asia-south2": 216,
+                "asia-southeast1": 294,
+                "asia-southeast2": 154,
+                "australia-southeast1": 179,
+                "australia-southeast2": 271,
+                "europe-central2": 295,
+                "europe-north1": 83,
+                "europe-southwest1": 36,
+                "europe-west1": 165,
+                "europe-west2": 119,
+                "europe-west3": 267,
+                "europe-west4": 145,
+                "europe-west6": 217,
+                "europe-west8": 35,
+                "europe-west9": 214,
+                "europe-west10": 158,
+                "europe-west12": 199,
+                "me-central1": 149,
+                "me-central2": 72,
+                "me-west1": 0,
+                "northamerica-northeast1": 20,
+                "northamerica-northeast2": 191,
+                "southamerica-east1": 202,
+                "southamerica-west1": 180,
+                "us-central1": 111,
+                "us-east1": 69,
+                "us-east5": 198,
+                "us-east4": 258,
+                "us-south1": 69,
+                "us-west1": 166,
+                "us-west2": 69,
+                "us-west3": 152,
+                "us-west4": 49
+            },
+            "northamerica-northeast1": {
+                "africa-south1": 237,
+                "asia-east1": 100,
+                "asia-east2": 100,
+                "asia-northeast1": 90,
+                "asia-northeast2": 171,
+                "asia-northeast3": 113,
+                "asia-south1": 268,
+                "asia-south2": 247,
+                "asia-southeast1": 264,
+                "asia-southeast2": 105,
+                "australia-southeast1": 275,
+                "australia-southeast2": 13,
+                "europe-central2": 244,
+                "europe-north1": 23,
+                "europe-southwest1": 147,
+                "europe-west1": 287,
+                "europe-west2": 180,
+                "europe-west3": 287,
+                "europe-west4": 112,
+                "europe-west6": 282,
+                "europe-west8": 28,
+                "europe-west9": 274,
+                "europe-west10": 94,
+                "europe-west12": 292,
+                "me-central1": 194,
+                "me-central2": 86,
+                "me-west1": 298,
+                "northamerica-northeast1": 0,
+                "northamerica-northeast2": 218,
+                "southamerica-east1": 130,
+                "southamerica-west1": 7,
+                "us-central1": 237,
+                "us-east1": 189,
+                "us-east5": 194,
+                "us-east4": 159,
+                "us-south1": 269,
+                "us-west1": 94,
+                "us-west2": 124,
+                "us-west3": 250,
+                "us-west4": 58
+            },
+            "northamerica-northeast2": {
+                "africa-south1": 232,
+                "asia-east1": 198,
+                "asia-east2": 258,
+                "asia-northeast1": 29,
+                "asia-northeast2": 133,
+                "asia-northeast3": 170,
+                "asia-south1": 274,
+                "asia-south2": 99,
+                "asia-southeast1": 210,
+                "asia-southeast2": 25,
+                "australia-southeast1": 269,
+                "australia-southeast2": 7,
+                "europe-central2": 255,
+                "europe-north1": 253,
+                "europe-southwest1": 90,
+                "europe-west1": 186,
+                "europe-west2": 62,
+                "europe-west3": 132,
+                "europe-west4": 166,
+                "europe-west6": 119,
+                "europe-west8": 192,
+                "europe-west9": 84,
+                "europe-west10": 128,
+                "europe-west12": 81,
+                "me-central1": 160,
+                "me-central2": 66,
+                "me-west1": 264,
+                "northamerica-northeast1": 141,
+                "northamerica-northeast2": 0,
+                "southamerica-east1": 234,
+                "southamerica-west1": 217,
+                "us-central1": 240,
+                "us-east1": 262,
+                "us-east5": 247,
+                "us-east4": 154,
+                "us-south1": 229,
+                "us-west1": 138,
+                "us-west2": 295,
+                "us-west3": 36,
+                "us-west4": 239
+            },
+            "southamerica-east1": {
+                "africa-south1": 146,
+                "asia-east1": 229,
+                "asia-east2": 97,
+                "asia-northeast1": 84,
+                "asia-northeast2": 116,
+                "asia-northeast3": 42,
+                "asia-south1": 28,
+                "asia-south2": 108,
+                "asia-southeast1": 113,
+                "asia-southeast2": 300,
+                "australia-southeast1": 54,
+                "australia-southeast2": 5,
+                "europe-central2": 42,
+                "europe-north1": 172,
+                "europe-southwest1": 88,
+                "europe-west1": 46,
+                "europe-west2": 290,
+                "europe-west3": 243,
+                "europe-west4": 242,
+                "europe-west6": 125,
+                "europe-west8": 258,
+                "europe-west9": 186,
+                "europe-west10": 245,
+                "europe-west12": 218,
+                "me-central1": 70,
+                "me-central2": 63,
+                "me-west1": 272,
+                "northamerica-northeast1": 118,
+                "northamerica-northeast2": 282,
+                "southamerica-east1": 0,
+                "southamerica-west1": 73,
+                "us-central1": 248,
+                "us-east1": 243,
+                "us-east5": 248,
+                "us-east4": 27,
+                "us-south1": 140,
+                "us-west1": 49,
+                "us-west2": 120,
+                "us-west3": 211,
+                "us-west4": 254
+            },
+            "southamerica-west1": {
+                "africa-south1": 172,
+                "asia-east1": 110,
+                "asia-east2": 295,
+                "asia-northeast1": 266,
+                "asia-northeast2": 171,
+                "asia-northeast3": 17,
+                "asia-south1": 99,
+                "asia-south2": 167,
+                "asia-southeast1": 165,
+                "asia-southeast2": 169,
+                "australia-southeast1": 48,
+                "australia-southeast2": 228,
+                "europe-central2": 275,
+                "europe-north1": 112,
+                "europe-southwest1": 206,
+                "europe-west1": 255,
+                "europe-west2": 40,
+                "europe-west3": 128,
+                "europe-west4": 253,
+                "europe-west6": 53,
+                "europe-west8": 35,
+                "europe-west9": 122,
+                "europe-west10": 119,
+                "europe-west12": 70,
+                "me-central1": 54,
+                "me-central2": 207,
+                "me-west1": 277,
+                "northamerica-northeast1": 289,
+                "northamerica-northeast2": 110,
+                "southamerica-east1": 8,
+                "southamerica-west1": 0,
+                "us-central1": 30,
+                "us-east1": 129,
+                "us-east5": 291,
+                "us-east4": 79,
+                "us-south1": 224,
+                "us-west1": 29,
+                "us-west2": 243,
+                "us-west3": 132,
+                "us-west4": 88
+            },
+            "us-central1": {
+                "africa-south1": 230,
+                "asia-east1": 155,
+                "asia-east2": 180,
+                "asia-northeast1": 160,
+                "asia-northeast2": 161,
+                "asia-northeast3": 162,
+                "asia-south1": 212,
+                "asia-south2": 214,
+                "asia-southeast1": 74,
+                "asia-southeast2": 209,
+                "australia-southeast1": 163,
+                "australia-southeast2": 29,
+                "europe-central2": 183,
+                "europe-north1": 68,
+                "europe-southwest1": 199,
+                "europe-west1": 116,
+                "europe-west2": 48,
+                "europe-west3": 183,
+                "europe-west4": 220,
+                "europe-west6": 232,
+                "europe-west8": 114,
+                "europe-west9": 98,
+                "europe-west10": 158,
+                "europe-west12": 46,
+                "me-central1": 19,
+                "me-central2": 113,
+                "me-west1": 102,
+                "northamerica-northeast1": 53,
+                "northamerica-northeast2": 188,
+                "southamerica-east1": 222,
+                "southamerica-west1": 142,
+                "us-central1": 0,
+                "us-east1": 299,
+                "us-east5": 34,
+                "us-east4": 294,
+                "us-south1": 276,
+                "us-west1": 49,
+                "us-west2": 6,
+                "us-west3": 9,
+                "us-west4": 226
+            },
+            "us-east1": {
+                "africa-south1": 172,
+                "asia-east1": 65,
+                "asia-east2": 164,
+                "asia-northeast1": 226,
+                "asia-northeast2": 50,
+                "asia-northeast3": 223,
+                "asia-south1": 161,
+                "asia-south2": 233,
+                "asia-southeast1": 193,
+                "asia-southeast2": 98,
+                "australia-southeast1": 258,
+                "australia-southeast2": 102,
+                "europe-central2": 230,
+                "europe-north1": 44,
+                "europe-southwest1": 38,
+                "europe-west1": 105,
+                "europe-west2": 256,
+                "europe-west3": 217,
+                "europe-west4": 70,
+                "europe-west6": 81,
+                "europe-west8": 99,
+                "europe-west9": 31,
+                "europe-west10": 292,
+                "europe-west12": 5,
+                "me-central1": 296,
+                "me-central2": 215,
+                "me-west1": 52,
+                "northamerica-northeast1": 203,
+                "northamerica-northeast2": 238,
+                "southamerica-east1": 73,
+                "southamerica-west1": 257,
+                "us-central1": 282,
+                "us-east1": 0,
+                "us-east5": 174,
+                "us-east4": 78,
+                "us-south1": 184,
+                "us-west1": 269,
+                "us-west2": 38,
+                "us-west3": 118,
+                "us-west4": 50
+            },
+            "us-east5": {
+                "africa-south1": 51,
+                "asia-east1": 107,
+                "asia-east2": 178,
+                "asia-northeast1": 148,
+                "asia-northeast2": 26,
+                "asia-northeast3": 190,
+                "asia-south1": 81,
+                "asia-south2": 182,
+                "asia-southeast1": 34,
+                "asia-southeast2": 48,
+                "australia-southeast1": 205,
+                "australia-southeast2": 210,
+                "europe-central2": 202,
+                "europe-north1": 195,
+                "europe-southwest1": 45,
+                "europe-west1": 238,
+                "europe-west2": 49,
+                "europe-west3": 243,
+                "europe-west4": 51,
+                "europe-west6": 165,
+                "europe-west8": 268,
+                "europe-west9": 46,
+                "europe-west10": 155,
+                "europe-west12": 267,
+                "me-central1": 201,
+                "me-central2": 34,
+                "me-west1": 277,
+                "northamerica-northeast1": 250,
+                "northamerica-northeast2": 154,
+                "southamerica-east1": 53,
+                "southamerica-west1": 216,
+                "us-central1": 167,
+                "us-east1": 62,
+                "us-east5": 0,
+                "us-east4": 132,
+                "us-south1": 276,
+                "us-west1": 171,
+                "us-west2": 212,
+                "us-west3": 247,
+                "us-west4": 19
+            },
+            "us-east4": {
+                "africa-south1": 277,
+                "asia-east1": 185,
+                "asia-east2": 234,
+                "asia-northeast1": 189,
+                "asia-northeast2": 247,
+                "asia-northeast3": 225,
+                "asia-south1": 236,
+                "asia-south2": 238,
+                "asia-southeast1": 62,
+                "asia-southeast2": 236,
+                "australia-southeast1": 154,
+                "australia-southeast2": 275,
+                "europe-central2": 265,
+                "europe-north1": 196,
+                "europe-southwest1": 215,
+                "europe-west1": 14,
+                "europe-west2": 289,
+                "europe-west3": 75,
+                "europe-west4": 102,
+                "europe-west6": 223,
+                "europe-west8": 97,
+                "europe-west9": 228,
+                "europe-west10": 219,
+                "europe-west12": 31,
+                "me-central1": 203,
+                "me-central2": 122,
+                "me-west1": 266,
+                "northamerica-northeast1": 85,
+                "northamerica-northeast2": 64,
+                "southamerica-east1": 65,
+                "southamerica-west1": 282,
+                "us-central1": 191,
+                "us-east1": 62,
+                "us-east5": 62,
+                "us-east4": 0,
+                "us-south1": 229,
+                "us-west1": 109,
+                "us-west2": 296,
+                "us-west3": 23,
+                "us-west4": 258
+            },
+            "us-south1": {
+                "africa-south1": 250,
+                "asia-east1": 267,
+                "asia-east2": 104,
+                "asia-northeast1": 13,
+                "asia-northeast2": 139,
+                "asia-northeast3": 57,
+                "asia-south1": 165,
+                "asia-south2": 287,
+                "asia-southeast1": 102,
+                "asia-southeast2": 73,
+                "australia-southeast1": 170,
+                "australia-southeast2": 36,
+                "europe-central2": 189,
+                "europe-north1": 209,
+                "europe-southwest1": 59,
+                "europe-west1": 165,
+                "europe-west2": 238,
+                "europe-west3": 7,
+                "europe-west4": 9,
+                "europe-west6": 18,
+                "europe-west8": 49,
+                "europe-west9": 64,
+                "europe-west10": 56,
+                "europe-west12": 253,
+                "me-central1": 287,
+                "me-central2": 36,
+                "me-west1": 270,
+                "northamerica-northeast1": 107,
+                "northamerica-northeast2": 111,
+                "southamerica-east1": 205,
+                "southamerica-west1": 133,
+                "us-central1": 62,
+                "us-east1": 272,
+                "us-east5": 32,
+                "us-east4": 236,
+                "us-south1": 0,
+                "us-west1": 77,
+                "us-west2": 119,
+                "us-west3": 239,
+                "us-west4": 189
+            },
+            "us-west1": {
+                "africa-south1": 36,
+                "asia-east1": 64,
+                "asia-east2": 74,
+                "asia-northeast1": 137,
+                "asia-northeast2": 87,
+                "asia-northeast3": 177,
+                "asia-south1": 8,
+                "asia-south2": 292,
+                "asia-southeast1": 230,
+                "asia-southeast2": 35,
+                "australia-southeast1": 282,
+                "australia-southeast2": 275,
+                "europe-central2": 63,
+                "europe-north1": 22,
+                "europe-southwest1": 175,
+                "europe-west1": 21,
+                "europe-west2": 196,
+                "europe-west3": 122,
+                "europe-west4": 135,
+                "europe-west6": 184,
+                "europe-west8": 70,
+                "europe-west9": 119,
+                "europe-west10": 88,
+                "europe-west12": 186,
+                "me-central1": 48,
+                "me-central2": 120,
+                "me-west1": 118,
+                "northamerica-northeast1": 163,
+                "northamerica-northeast2": 132,
+                "southamerica-east1": 6,
+                "southamerica-west1": 42,
+                "us-central1": 222,
+                "us-east1": 241,
+                "us-east5": 269,
+                "us-east4": 33,
+                "us-south1": 75,
+                "us-west1": 0,
+                "us-west2": 287,
+                "us-west3": 16,
+                "us-west4": 247
+            },
+            "us-west2": {
+                "africa-south1": 266,
+                "asia-east1": 225,
+                "asia-east2": 51,
+                "asia-northeast1": 117,
+                "asia-northeast2": 253,
+                "asia-northeast3": 139,
+                "asia-south1": 84,
+                "asia-south2": 59,
+                "asia-southeast1": 285,
+                "asia-southeast2": 220,
+                "australia-southeast1": 84,
+                "australia-southeast2": 170,
+                "europe-central2": 274,
+                "europe-north1": 38,
+                "europe-southwest1": 255,
+                "europe-west1": 101,
+                "europe-west2": 119,
+                "europe-west3": 267,
+                "europe-west4": 160,
+                "europe-west6": 23,
+                "europe-west8": 171,
+                "europe-west9": 11,
+                "europe-west10": 257,
+                "europe-west12": 48,
+                "me-central1": 234,
+                "me-central2": 67,
+                "me-west1": 79,
+                "northamerica-northeast1": 103,
+                "northamerica-northeast2": 46,
+                "southamerica-east1": 288,
+                "southamerica-west1": 234,
+                "us-central1": 91,
+                "us-east1": 85,
+                "us-east5": 269,
+                "us-east4": 142,
+                "us-south1": 71,
+                "us-west1": 187,
+                "us-west2": 0,
+                "us-west3": 207,
+                "us-west4": 16
+            },
+            "us-west3": {
+                "africa-south1": 48,
+                "asia-east1": 238,
+                "asia-east2": 262,
+                "asia-northeast1": 291,
+                "asia-northeast2": 261,
+                "asia-northeast3": 81,
+                "asia-south1": 173,
+                "asia-south2": 271,
+                "asia-southeast1": 84,
+                "asia-southeast2": 207,
+                "australia-southeast1": 281,
+                "australia-southeast2": 272,
+                "europe-central2": 276,
+                "europe-north1": 268,
+                "europe-southwest1": 184,
+                "europe-west1": 294,
+                "europe-west2": 10,
+                "europe-west3": 247,
+                "europe-west4": 28,
+                "europe-west6": 254,
+                "europe-west8": 234,
+                "europe-west9": 276,
+                "europe-west10": 224,
+                "europe-west12": 285,
+                "me-central1": 51,
+                "me-central2": 289,
+                "me-west1": 47,
+                "northamerica-northeast1": 293,
+                "northamerica-northeast2": 194,
+                "southamerica-east1": 122,
+                "southamerica-west1": 91,
+                "us-central1": 118,
+                "us-east1": 122,
+                "us-east5": 97,
+                "us-east4": 269,
+                "us-south1": 103,
+                "us-west1": 84,
+                "us-west2": 146,
+                "us-west3": 0,
+                "us-west4": 205
+            },
+            "us-west4": {
+                "africa-south1": 164,
+                "asia-east1": 250,
+                "asia-east2": 266,
+                "asia-northeast1": 158,
+                "asia-northeast2": 94,
+                "asia-northeast3": 233,
+                "asia-south1": 167,
+                "asia-south2": 199,
+                "asia-southeast1": 160,
+                "asia-southeast2": 78,
+                "australia-southeast1": 100,
+                "australia-southeast2": 14,
+                "europe-central2": 196,
+                "europe-north1": 119,
+                "europe-southwest1": 126,
+                "europe-west1": 226,
+                "europe-west2": 77,
+                "europe-west3": 95,
+                "europe-west4": 221,
+                "europe-west6": 104,
+                "europe-west8": 295,
+                "europe-west9": 51,
+                "europe-west10": 169,
+                "europe-west12": 157,
+                "me-central1": 94,
+                "me-central2": 216,
+                "me-west1": 85,
+                "northamerica-northeast1": 155,
+                "northamerica-northeast2": 236,
+                "southamerica-east1": 166,
+                "southamerica-west1": 108,
+                "us-central1": 240,
+                "us-east1": 210,
+                "us-east5": 163,
+                "us-east4": 197,
+                "us-south1": 218,
+                "us-west1": 114,
+                "us-west2": 103,
+                "us-west3": 84,
+                "us-west4": 0
+            }
+        },
+        "gdpr_compliant_regions": [
+            "europe-north1",
+            "europe-west1",
+            "europe-west4"
         ]
     }
 }
